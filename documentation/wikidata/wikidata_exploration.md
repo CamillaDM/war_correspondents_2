@@ -27,12 +27,12 @@ The objective of this stage of the workflow is to analyse the available informat
 
 To begin with, we select a few people from the population chosen for the research and inspect their entries in Wikidata. This allows us to identify the properties that will enable us to find the population and determine what information is available.
 
-* [Victor Ambartsumian](http://www.wikidata.org/entity/Q164396)
+* [Gilles Caron](http://www.wikidata.org/entity/Q454784)
   * On this page or 'card' we can inspect the RDF triples available about this person in the Wikidata knowledge graph
   * Carefullyl inspect the properties ‘employer’ and ‘position held’
     * Cf. the ['card' of the same person in DBpedia](https://dbpedia.org/resource/Viktor_Ambartsumian)
     * Note the difference between a property-centered ontology and an assertion-centered ontology, which de facto contains implicit temporalities.
-* [Werner Heisenberg](http://www.wikidata.org/entity/Q40904)
+* [Patrick Chauvel](http://www.wikidata.org/entity/Q1400992)
 
 ### URI vs URL
 
