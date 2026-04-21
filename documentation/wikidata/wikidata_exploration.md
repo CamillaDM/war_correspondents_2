@@ -30,27 +30,27 @@ To begin with, we select a few people from the population chosen for the researc
 * [Gilles Caron](http://www.wikidata.org/entity/Q454784)
   * On this page or 'card' we can inspect the RDF triples available about this person in the Wikidata knowledge graph
   * Carefullyl inspect the properties ‘employer’ and ‘position held’
-    * Cf. the ['card' of the same person in DBpedia](https://dbpedia.org/resource/Viktor_Ambartsumian)
+    * Cf. the ['card' of the same person in DBpedia](https://dbpedia.org/page/Gilles_Caron)
     * Note the difference between a property-centered ontology and an assertion-centered ontology, which de facto contains implicit temporalities.
 * [Patrick Chauvel](http://www.wikidata.org/entity/Q1400992)
 
 ### URI vs URL
 
-* URL -> https://www.wikidata.org/wiki/Q164396
-* URI -> &lt;http://www.wikidata.org/entity/Q164396&gt;
+* URL -> https://www.wikidata.org/wiki/Q454784
+* URI -> &lt;http://www.wikidata.org/entity/Q454784&gt;
 
 **Dereferencing** is the technical mechanism that allows to insert a **URI** in the browser and be redirected to the **URL** of the page where the entity is described (if it exists). In the case of Wikidata and our population, it is the 'card' about the persons, with all the triples (in fact *statements*) presented in a readable form.
 
 ## Querying Wikidata to find the population
 
-For astronomers and physicists, the following properties appear to be an effective way of identifying the population::
+For war journalists and war photographs, the following properties appear to be an effective way of identifying the population::
 
 * [occupation](https://m.wikidata.org/wiki/Property:P106)
 * [field of work](https://m.wikidata.org/wiki/Property:P101)
 
-### Number of persons with 'occupation' et/ou 'field of work' in astronomy and physics
-
-Figures as of February 16, 2026.
+### Number of persons with 'occupation' et/ou 'field of work' in war journalism and war photgraphy.
+1114
+Figures as of April 21st, 2026.
 
 ```
 SELECT (COUNT(*) as ?eff)
@@ -61,17 +61,13 @@ WHERE {
 
     ?item wdt:P31 wd:Q5;  # Any instance of a human.
   
-          wdt:P106 wd:Q11063  # astronomer 11750
+          wdt:P106 wd:Q164236 # war correspodent 
   
-    # wdt:P101 wd:Q333  # astronomy 2161
-    # wdt:P106 wd:Q169470 # physicist 36002
-    #  wdt:P101 wd:Q413 # physics ~ 5625
 
-    ### autres sujets
-    #  wdt:P106 wd:Q155647  # astrologer 1364
-    #  wdt:P101 wd:Q34362 # astrology 241
-    #  wdt:P106 wd:Q170790  # mathematician 39562
-    #  wdt:P106 wd:Q901 # scientist 36117
+    # wdt:P101 wd:Q17042980 # war journalism
+    # wdt:P106 wd:Q11496048 # war photographer
+    # wdt:P101 wd:Q605789 # war photography
+
 
 }  
 ```
@@ -80,37 +76,37 @@ WHERE {
 
 We use here the **UNION** clause which allows to express an **OR** condition and merge two populations.
 
-#### Astronomers
+#### War journalism
 
-14327 as of February 16, 2026.
+1266 as of April 21st, 2026.
 
 ```
 SELECT (COUNT(*) as ?eff)
 WHERE {
     ?item wdt:P31 wd:Q5.
-    {?item wdt:P106 wd:Q11063}
+    {?item wdt:P106 wd:Q164236}
     UNION
-    {?item wdt:P101 wd:Q333}  
+    {?item wdt:P101 wd:Q17042980}  
 }  
 ```
 
-#### Physicians
+#### War photography
 
-41629 as of February 16, 2026.
+367 as of April 21st, 2026.
 
 ```
 SELECT (COUNT(*) as ?eff)
 WHERE {
     ?item wdt:P31 wd:Q5;  # Any instance of a human.
-    {?item wdt:P106 wd:Q169470}
+    {?item wdt:P106 wd:Q11496048}
     UNION
-    {?item wdt:P101 wd:Q413}  
+    {?item wdt:P101 wd:Q605789}  
 }  
 ```
 
 #### Both sup-populations
 
-55956 as of February 16, 2026.
+1633 as of April 21st, 2026.
 
 But be careful: it's actually the sum of the two, so a person could appear more then once.
 
@@ -119,19 +115,19 @@ SELECT (COUNT(*) as ?eff)
 WHERE {
     ?item wdt:P31 wd:Q5;  # Any instance of a human.
 
-    {?item wdt:P106 wd:Q11063}
+      {?item wdt:P106 wd:Q164236}
     UNION
-    {?item wdt:P101 wd:Q333} 
+    {?item wdt:P101 wd:Q17042980} 
     UNION
-    {?item wdt:P106 wd:Q169470}
+    {?item wdt:P106 wd:Q11496048}
     UNION
-    {?item wdt:P101 wd:Q413}  
+    {?item wdt:P101 wd:Q605789}
 }  
 ```
 
 ### Actual number of people
 
-48094 las of February 16, 2026.
+1480 as of April 21st, 2026.
 
 There is an overlap of approximately 7,800 individuals who are both astronomers and physicists.
 
@@ -145,13 +141,13 @@ WHERE {
         SELECT DISTINCT ?item
         WHERE {
         ?item wdt:P31 wd:Q5;  # Any instance of a human.
-        {?item wdt:P106 wd:Q11063}
+         {?item wdt:P106 wd:Q164236}
         UNION
-        {?item wdt:P101 wd:Q333} 
+        {?item wdt:P101 wd:Q17042980} 
         UNION
-        {?item wdt:P106 wd:Q169470}
+        {?item wdt:P106 wd:Q11496048}
         UNION
-        {?item wdt:P101 wd:Q413}  
+        {?item wdt:P101 wd:Q605789}
         }
     }
 }  
@@ -159,7 +155,7 @@ WHERE {
 
 ### Add a filter on the birth year
 
-32866 on February 21st 2026
+1117 as of April 21st 2026
 
 ```
 SELECT (COUNT(*) as ?eff)
@@ -172,17 +168,18 @@ WHERE
         ?item wdt:P31 wd:Q5; 
               wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
-            {?item wdt:P106 wd:Q11063}
-            UNION
-            {?item wdt:P101 wd:Q333} 
-            UNION
-            {?item wdt:P106 wd:Q169470}
-            UNION
-            {?item wdt:P101 wd:Q413}  
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2021)# Any instance of a human.
+             {?item wdt:P106 wd:Q164236}
+        UNION
+        {?item wdt:P101 wd:Q17042980} 
+        UNION
+        {?item wdt:P106 wd:Q11496048}
+        UNION
+        {?item wdt:P101 wd:Q605789}
             }
         }  
     }  
+ 
 ```
 
 ### Inspect individuals
@@ -194,13 +191,13 @@ SELECT DISTINCT ?item ?itemLabel ?year
 WHERE {
     {
   
-        {?item wdt:P106 wd:Q11063}
+        {?item wdt:P106 wd:Q164236}
         UNION
-        {?item wdt:P101 wd:Q333} 
+        {?item wdt:P101 wd:Q17042980} 
         UNION
-        {?item wdt:P106 wd:Q169470}
+        {?item wdt:P106 wd:Q11496048}
         UNION
-        {?item wdt:P101 wd:Q413} 
+        {?item wdt:P101 wd:Q605789} 
     }  
     ?item wdt:P31 wd:Q5;  # Any instance of a human.
             wdt:P569 ?birthDate.
@@ -232,13 +229,13 @@ WHERE
               wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
-            {?item wdt:P106 wd:Q11063}
-            UNION
-            {?item wdt:P101 wd:Q333} 
-            UNION
-            {?item wdt:P106 wd:Q169470}
-            UNION
-            {?item wdt:P101 wd:Q413}  
+               {?item wdt:P106 wd:Q164236}
+                UNION
+                {?item wdt:P101 wd:Q17042980} 
+                UNION
+                {?item wdt:P106 wd:Q11496048}
+                UNION
+                {?item wdt:P101 wd:Q605789}
         ?item rdfs:label ?itemLabel.
         FILTER(LANG(?itemLabel) = 'en')
             }
@@ -261,13 +258,13 @@ WHERE
               wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
-            {?item wdt:P106 wd:Q11063}
+            {?item wdt:P106 wd:Q164236}
             UNION
-            {?item wdt:P101 wd:Q333} 
+            {?item wdt:P101 wd:Q17042980} 
             UNION
-            {?item wdt:P106 wd:Q169470}
+            {?item wdt:P106 wd:Q11496048}
             UNION
-            {?item wdt:P101 wd:Q413}  
+            {?item wdt:P101 wd:Q605789}
         MINUS {?item rdfs:label ?itemLabel.
             FILTER(LANG(?itemLabel) = 'en')
             }
@@ -294,13 +291,13 @@ WHERE
               wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
-            {?item wdt:P106 wd:Q11063}
-            UNION
-            {?item wdt:P101 wd:Q333} 
-            UNION
-            {?item wdt:P106 wd:Q169470}
-            UNION
-            {?item wdt:P101 wd:Q413}  
+              {?item wdt:P106 wd:Q164236}
+                UNION
+                {?item wdt:P101 wd:Q17042980} 
+                UNION
+                {?item wdt:P106 wd:Q11496048}
+                UNION
+                {?item wdt:P101 wd:Q605789}
         MINUS {?item rdfs:label ?itemLabel.
             FILTER(LANG(?itemLabel) = 'en')
             }
