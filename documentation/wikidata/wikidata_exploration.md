@@ -334,13 +334,13 @@ WHERE {
              wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
-            {?item wdt:P106 wd:Q11063}
-            UNION
-            {?item wdt:P101 wd:Q333} 
-            UNION
-            {?item wdt:P106 wd:Q169470}
-            UNION
-            {?item wdt:P101 wd:Q413}.
+                {?item wdt:P106 wd:Q164236}
+                UNION
+                {?item wdt:P101 wd:Q17042980} 
+                UNION
+                {?item wdt:P106 wd:Q11496048}
+                UNION
+                {?item wdt:P101 wd:Q605789}.
 			?item ?p ?o.
         }
 		GROUP BY ?p
@@ -389,13 +389,13 @@ WHERE {
              wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
-            {?item wdt:P106 wd:Q11063}
-            UNION
-            {?item wdt:P101 wd:Q333} 
-            UNION
-            {?item wdt:P106 wd:Q169470}
-            UNION
-            {?item wdt:P101 wd:Q413}.
+             {?item wdt:P106 wd:Q164236}
+                UNION
+                {?item wdt:P101 wd:Q17042980} 
+                UNION
+                {?item wdt:P106 wd:Q11496048}
+                UNION
+                {?item wdt:P101 wd:Q605789}.
 
             ## inversed triple
 			?s ?p ?item.
@@ -413,22 +413,17 @@ ORDER BY DESC(?eff)
 Relevant incoming properties:
 
 
-| p                                         | propLabel              | eff     | notes |
-| ------------------------------------------- | ------------------------ | --------- | ------- |
-| http://www.wikidata.org/prop/direct/P50   | author                 | 1012032 |       |
-| http://www.wikidata.org/prop/direct/P61   | discoverer or inventor | 83956   |       |
-| http://www.wikidata.org/prop/direct/P184  | doctoral advisor       | 25018   |       |
-| http://www.wikidata.org/prop/direct/P138  | named after            | 18336   |       |
-| http://www.wikidata.org/prop/direct/P921  | main subject           | 8428    |       |
-| http://www.wikidata.org/prop/direct/P185  | doctoral student       | 7617    |       |
-| http://www.wikidata.org/prop/direct/P40   | child                  | 3218    |       |
-| http://www.wikidata.org/prop/direct/P22   | father                 | 2835    |       |
-| http://www.wikidata.org/prop/direct/P1346 | winner                 | 2644    |       |
-| http://www.wikidata.org/prop/direct/P26   | spouse                 | 2120    |       |
-| http://www.wikidata.org/prop/direct/P1066 | student of             | 2035    |       |
-| http://www.wikidata.org/prop/direct/P3373 | sibling                | 1982    |       |
-| http://www.wikidata.org/prop/direct/P1889 | different from         | 1618    |       |
-| http://www.wikidata.org/prop/direct/P802  | student                | 1375    |       |
+
+p	propLabel	eff	notes
+http://www.wikidata.org/prop/direct/P50	author	19954	
+http://www.wikidata.org/prop/direct/P170	creator	1210	
+http://www.wikidata.org/prop/direct/P10661	exhibited creator	447	
+http://www.wikidata.org/prop/direct/P921	main subject	441	
+http://www.wikidata.org/prop/direct/P58	screenwriter	369	
+http://www.wikidata.org/prop/direct/P138	named after	318	
+http://www.wikidata.org/prop/direct/P26	spouse	215	
+http://www.wikidata.org/prop/direct/P180	depicts	193	
+http://www.wikidata.org/prop/direct/P40	child	187	
 
 This is just a portion of the resulting downloaded CSV. If you have more you should also create a dedicated page for the incoming properties.
 
@@ -455,17 +450,17 @@ WHERE {
              wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
-            {?item wdt:P106 wd:Q11063.
-			BIND ('astronomer' as ?itemType)}
+            {?item wdt:P106 wd:Q164236.
+			BIND ('war journalist' as ?itemType)}
             UNION
-            {?item wdt:P101 wd:Q333.
-			BIND ('astronomer' as ?itemType).} 
+            {?item wdt:P101 wd:Q17042980.
+			BIND ('war journalist' as ?itemType).} 
             UNION
-            {?item wdt:P106 wd:Q169470.
-			BIND ('physicist' as ?itemType)}
+            {?item wdt:P106 wd:Q11496048.
+			BIND ('war photograph' as ?itemType)}
             UNION
-            {?item wdt:P101 wd:Q413.
-			BIND ('physicist' as ?itemType)}
+            {?item wdt:P101 wd:Q605789.
+			BIND ('war photograph' as ?itemType)}
 			.
 			?item ?p ?o.
         }
@@ -504,17 +499,17 @@ WHERE {
              wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
-            {?item wdt:P106 wd:Q11063.
-			BIND ('astronomer' as ?itemType)}
+             {?item wdt:P106 wd:Q164236.
+			BIND ('war journalist' as ?itemType)}
             UNION
-            {?item wdt:P101 wd:Q333.
-			BIND ('astronomer' as ?itemType).} 
+            {?item wdt:P101 wd:Q17042980.
+			BIND ('war journalist' as ?itemType).} 
             UNION
-            {?item wdt:P106 wd:Q169470.
-			BIND ('physicist' as ?itemType)}
+            {?item wdt:P106 wd:Q11496048.
+			BIND ('war photograph' as ?itemType)}
             UNION
-            {?item wdt:P101 wd:Q413.
-			BIND ('physicist' as ?itemType)}
+            {?item wdt:P101 wd:Q605789.
+			BIND ('war photograph' as ?itemType)}
 			.
 			?item ?p ?o.
         }
