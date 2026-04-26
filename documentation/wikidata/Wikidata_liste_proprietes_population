@@ -1,4 +1,14 @@
-|--------------------------------------------|-----------------------------------------------------------------------|------|-------|
+|# Propriétés de la population avec effectifs
+
+## Table propriétés sortantes
+
+La période considérée ici est 1780-2001 inclus (cf. [cette page](Wikidata-exploration.md#lister-les-propriétés-disponibles-avec-effectifs)):
+
+
+
+
+
+--------------------------------------------|-----------------------------------------------------------------------|------|-------|
 | p                                          | propLabel                                                             | eff  | notes |
 |--------------------------------------------|-----------------------------------------------------------------------|------|-------|
 | http://www.wikidata.org/prop/direct/P106   | occupation                                                            | 4798 |       |

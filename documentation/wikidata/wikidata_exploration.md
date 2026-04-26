@@ -50,7 +50,7 @@ For war journalists and war photographs, the following properties appear to be a
 
 ### Number of persons with 'occupation' et/ou 'field of work' in war journalism and war photgraphy.
 1114
-Figures as of April 21st, 2026.
+Figures as of April 26, 2026.
 
 ```
 SELECT (COUNT(*) as ?eff)
@@ -78,7 +78,7 @@ We use here the **UNION** clause which allows to express an **OR** condition and
 
 #### War journalism
 
-1266 as of April 21st, 2026.
+1266 as of April 26, 2026.
 
 ```
 SELECT (COUNT(*) as ?eff)
@@ -92,7 +92,7 @@ WHERE {
 
 #### War photography
 
-367 as of April 21st, 2026.
+367 as of April 26, 2026.
 
 ```
 SELECT (COUNT(*) as ?eff)
@@ -106,7 +106,7 @@ WHERE {
 
 #### Both sup-populations
 
-1633 as of April 21st, 2026.
+1633 as of April 26, 2026.
 
 But be careful: it's actually the sum of the two, so a person could appear more then once.
 
@@ -127,7 +127,7 @@ WHERE {
 
 ### Actual number of people
 
-1480 as of April 21st, 2026.
+1480 as of April 26, 2026.
 
 There is an overlap of approximately 7,800 individuals who are both astronomers and physicists.
 
@@ -150,12 +150,12 @@ WHERE {
         {?item wdt:P101 wd:Q605789}
         }
     }
-}  
+    }
 ```
 
 ### Add a filter on the birth year
 
-1117 as of April 21st 2026
+1117 as of April 26 2026
 
 ```
 SELECT (COUNT(*) as ?eff)
@@ -168,7 +168,7 @@ WHERE
         ?item wdt:P31 wd:Q5; 
               wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2021)# Any instance of a human.
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
              {?item wdt:P106 wd:Q164236}
         UNION
         {?item wdt:P101 wd:Q17042980} 
@@ -215,7 +215,7 @@ LIMIT 100
 ```
 
 ### Count population with English labels
-
+1080 as of April 26 2026
 ```
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT (COUNT(*) as ?eff)
@@ -228,7 +228,7 @@ WHERE
         ?item wdt:P31 wd:Q5; 
               wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
                {?item wdt:P106 wd:Q164236}
                 UNION
                 {?item wdt:P101 wd:Q17042980} 
@@ -244,7 +244,7 @@ WHERE
 ```
 
 ### Number of individuals without English label
-
+49 as of April 26 2026
 ```
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT (COUNT(*) as ?eff)
@@ -257,7 +257,7 @@ WHERE
         ?item wdt:P31 wd:Q5; 
               wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
             {?item wdt:P106 wd:Q164236}
             UNION
             {?item wdt:P101 wd:Q17042980} 
@@ -290,7 +290,7 @@ WHERE
         ?item wdt:P31 wd:Q5; 
               wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
               {?item wdt:P106 wd:Q164236}
                 UNION
                 {?item wdt:P101 wd:Q17042980} 
@@ -333,7 +333,7 @@ WHERE {
         ?item wdt:P31 wd:Q5; 
              wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
                 {?item wdt:P106 wd:Q164236}
                 UNION
                 {?item wdt:P101 wd:Q17042980} 
@@ -388,7 +388,7 @@ WHERE {
         ?item wdt:P31 wd:Q5; 
              wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
              {?item wdt:P106 wd:Q164236}
                 UNION
                 {?item wdt:P101 wd:Q17042980} 
@@ -411,7 +411,6 @@ ORDER BY DESC(?eff)
 ```
 
 Relevant incoming properties:
-
 
 
 p	propLabel	eff	notes
@@ -449,7 +448,7 @@ WHERE {
         ?item wdt:P31 wd:Q5; 
              wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
             {?item wdt:P106 wd:Q164236.
 			BIND ('war journalist' as ?itemType)}
             UNION
@@ -498,7 +497,7 @@ WHERE {
         ?item wdt:P31 wd:Q5; 
              wdt:P569 ?birthDate.
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)# Any instance of a human.
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
              {?item wdt:P106 wd:Q164236.
 			BIND ('war journalist' as ?itemType)}
             UNION
