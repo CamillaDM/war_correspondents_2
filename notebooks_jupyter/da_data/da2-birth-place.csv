@@ -8,9 +8,11 @@ http://www.wikidata.org/entity/Q102449,Frauke Eigen,1969,female,Aurich,POINT(7.4
 http://www.wikidata.org/entity/Q102591,Jockel Finck,1962,male,Einbeck,POINT(9.866667 51.816667),http://www.wikidata.org/entity/Q47244
 http://www.wikidata.org/entity/Q10327828,May Christie,1890,female,People's Republic of China,POINT(103.451944 35.844722),http://www.wikidata.org/entity/Q148
 http://www.wikidata.org/entity/Q103992387,Semyon Valdimirovich Alperin,1897,male,Simferopol,POINT(34.100039 44.948376),http://www.wikidata.org/entity/Q19566
+http://www.wikidata.org/entity/Q1041417,Carl von Scapinelli,1876,male,Vienna,POINT(16.372500 48.208333),http://www.wikidata.org/entity/Q1741
 http://www.wikidata.org/entity/Q104585883,Jean Péraud,1925,male,Le Perreux-sur-Marne,POINT(2.503611 48.842222),http://www.wikidata.org/entity/Q990408
 http://www.wikidata.org/entity/Q104590752,Daniel Camus,1929,male,Reims,POINT(4.028611 49.265278),http://www.wikidata.org/entity/Q41876
 http://www.wikidata.org/entity/Q104621531,Pierre Ferrari,1924,male,Massiac,POINT(3.197222 45.251389),http://www.wikidata.org/entity/Q470686
+http://www.wikidata.org/entity/Q104703923,Julius Hirsch,1874,male,Opava,POINT(17.904444 49.938056),http://www.wikidata.org/entity/Q156080
 http://www.wikidata.org/entity/Q105763844,Alfred Grohs,1880,male,Böhmisch-Rixdorf,POINT(13.443900 52.473900),http://www.wikidata.org/entity/Q325748
 http://www.wikidata.org/entity/Q1064279,Charles Enderlin,1945,male,Paris,POINT(2.352222 48.856667),http://www.wikidata.org/entity/Q90
 http://www.wikidata.org/entity/Q106481431,Ruslan Leviev,1986,male,Bikin,POINT(134.250000 46.816667),http://www.wikidata.org/entity/Q105056
@@ -27,6 +29,7 @@ http://www.wikidata.org/entity/Q1072114,Nikolai Samokysh,1860,male,Nizhyn,POINT(
 http://www.wikidata.org/entity/Q1077344,Chris Hondros,1970,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
 http://www.wikidata.org/entity/Q107760,Hans Hildenbrand,1870,male,Bad Boll,POINT(9.615556 48.639444),http://www.wikidata.org/entity/Q81572
 http://www.wikidata.org/entity/Q108048862,Feyzi Öktem,1942,male,Ankara,POINT(32.838690 39.935760),http://www.wikidata.org/entity/Q3640
+http://www.wikidata.org/entity/Q108167331,Oleksandr Klymenko,1960,male,Vysoke,POINT(32.550000 51.316667),http://www.wikidata.org/entity/Q4129399
 http://www.wikidata.org/entity/Q108290843,Carl August Stachelscheid,1919,male,Düsseldorf,POINT(6.776667 51.225556),http://www.wikidata.org/entity/Q1718
 http://www.wikidata.org/entity/Q108290945,Willem Zwagers,1905,male,Amsterdam,POINT(4.883333 52.366667),http://www.wikidata.org/entity/Q727
 http://www.wikidata.org/entity/Q108306133,Anna Dolgareva,1988,female,Kharkiv,POINT(36.231111 49.992500),http://www.wikidata.org/entity/Q42308
@@ -104,6 +107,7 @@ http://www.wikidata.org/entity/Q115324718,Geōrgios Karagiōrgas,1919,male,Athen
 http://www.wikidata.org/entity/Q115408489,Dariush Goodarzikia,1947,male,Enaj,POINT(49.317778 34.230278),http://www.wikidata.org/entity/Q5375172
 http://www.wikidata.org/entity/Q115408555,Mahmoud Badrfar,1959,male,Tehran,POINT(51.389722 35.688889),http://www.wikidata.org/entity/Q3616
 http://www.wikidata.org/entity/Q11562820,Yōichi Watanabe,1972,male,Fuji,POINT(138.676278 35.161333),http://www.wikidata.org/entity/Q328613
+http://www.wikidata.org/entity/Q1158505,Damien Lewis,2000,male,Dorset,POINT(-2.333333 50.833333),http://www.wikidata.org/entity/Q23159
 http://www.wikidata.org/entity/Q1158512,Damien Parer,1912,male,City of Stonnington,POINT(145.029563 -37.856245),http://www.wikidata.org/entity/Q1409285
 http://www.wikidata.org/entity/Q116009710,Maurine Mercier,1981,female,Lausanne,POINT(6.633333 46.533333),http://www.wikidata.org/entity/Q807
 http://www.wikidata.org/entity/Q116062773,Boris Losin,1919,male,Poltava Governorate,POINT(34.568611 49.574444),http://www.wikidata.org/entity/Q1271216
@@ -148,6 +152,8 @@ http://www.wikidata.org/entity/Q12356531,Vilmos Simon,1876,male,Clopotiva,POINT(
 http://www.wikidata.org/entity/Q1238249,Dominique Lapierre,1931,male,Châtelaillon-Plage,POINT(-1.088056 46.073056),http://www.wikidata.org/entity/Q72234
 http://www.wikidata.org/entity/Q1238740,Neil Sheehan,1936,male,Holyoke,POINT(-72.618056 42.204167),http://www.wikidata.org/entity/Q1637790
 http://www.wikidata.org/entity/Q1239329,Don McCullin,1935,male,Finsbury Park,POINT(-0.103100 51.568300),http://www.wikidata.org/entity/Q122566
+http://www.wikidata.org/entity/Q1239689,Jay Tuck,1945,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
+http://www.wikidata.org/entity/Q12410568,Pierre van Paassen,1895,male,Gorinchem,POINT(4.974167 51.830556),http://www.wikidata.org/entity/Q244327
 http://www.wikidata.org/entity/Q12411282,Roni Daniel,1947,male,Baghdad,POINT(44.366111 33.315278),http://www.wikidata.org/entity/Q1530
 http://www.wikidata.org/entity/Q124158563,Joan Roura,1959,male,Badalona,POINT(2.233333 41.433333),http://www.wikidata.org/entity/Q15468
 http://www.wikidata.org/entity/Q124343135,Daphne Wesdorp,1997,female,Bakkeveen,POINT(6.257200 53.081700),http://www.wikidata.org/entity/Q2389357
@@ -176,6 +182,7 @@ http://www.wikidata.org/entity/Q12758344,Risto Djogo,1956,male,Kalinovik,POINT(1
 http://www.wikidata.org/entity/Q12788546,Ervin Hladnik Milharčič,1954,male,Nova Gorica,POINT(13.650000 45.966667),http://www.wikidata.org/entity/Q1018
 http://www.wikidata.org/entity/Q12791737,Ivo Štandeker,1961,male,Maribor,POINT(15.633333 46.550000),http://www.wikidata.org/entity/Q1010
 http://www.wikidata.org/entity/Q12792181,Janko Lavrin,1887,male,Krupa,POINT(15.219450 45.635722),http://www.wikidata.org/entity/Q2954410
+http://www.wikidata.org/entity/Q1287359,Edo Popović,1957,male,Livno,POINT(17.007500 43.826944),http://www.wikidata.org/entity/Q746073
 http://www.wikidata.org/entity/Q128799375,Kim Sengupta,1956,male,London,POINT(-0.127500 51.507222),http://www.wikidata.org/entity/Q84
 http://www.wikidata.org/entity/Q1291529,E. Alexander Powell,1879,male,Syracuse,POINT(-76.144423 43.046899),http://www.wikidata.org/entity/Q128069
 http://www.wikidata.org/entity/Q129623550,Vladimir Mikhailovich Aposhanskij,1910,male,Pogromets,POINT(37.846596 50.344073),http://www.wikidata.org/entity/Q21342568
@@ -194,7 +201,7 @@ http://www.wikidata.org/entity/Q133253582,Nicolae Pojoga,1950,male,Ciuciuleni,PO
 http://www.wikidata.org/entity/Q133277817,Karolina Pajączkowska,1991,female,Radomsko,POINT(19.450000 51.066667),http://www.wikidata.org/entity/Q158796
 http://www.wikidata.org/entity/Q133278033,Григорюк Денис Игоревич,1991,male,Donetsk,POINT(37.802778 48.015833),http://www.wikidata.org/entity/Q43070
 http://www.wikidata.org/entity/Q133288915,کوروش ابوطالب امام,1954,"",Tehran,POINT(51.389722 35.688889),http://www.wikidata.org/entity/Q3616
-http://www.wikidata.org/entity/Q133572148,Раковский Григорий Николаевич,1889,male,Mogilev,POINT(30.342960 53.908940),http://www.wikidata.org/entity/Q154835
+http://www.wikidata.org/entity/Q133572148,Раковский Григорий Николаевич,1889,male,Mahilyow,POINT(30.342960 53.908940),http://www.wikidata.org/entity/Q154835
 http://www.wikidata.org/entity/Q133653,Lara Logan,1971,female,Durban,POINT(31.025000 -29.858333),http://www.wikidata.org/entity/Q5468
 http://www.wikidata.org/entity/Q1340595,James Aldridge,1918,male,White Hills,POINT(144.300000 -36.733300),http://www.wikidata.org/entity/Q7994799
 http://www.wikidata.org/entity/Q1348644,Larry Burrows,1926,male,London,POINT(-0.127500 51.507222),http://www.wikidata.org/entity/Q84
@@ -228,13 +235,17 @@ http://www.wikidata.org/entity/Q138846,Andy Rooney,1919,male,Albany,POINT(-73.76
 http://www.wikidata.org/entity/Q1388736,Julius von Wickede,1819,male,Schwerin,POINT(11.415000 53.628889),http://www.wikidata.org/entity/Q1709
 http://www.wikidata.org/entity/Q1392250,Robert W. Service,1874,male,Preston,POINT(-2.698056 53.759445),http://www.wikidata.org/entity/Q184090
 http://www.wikidata.org/entity/Q139545676,Russell Hill,1918,"",New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
+http://www.wikidata.org/entity/Q139591540,Avis Waterman,1882,female,Chicago,POINT(-87.627778 41.881944),http://www.wikidata.org/entity/Q1297
+http://www.wikidata.org/entity/Q139674805,Karel Bagijn,1948,male,Zeist,POINT(5.233333 52.083333),http://www.wikidata.org/entity/Q10056
 http://www.wikidata.org/entity/Q1398619,Karl Henry von Wiegand,1874,male,Alsace,POINT(7.500000 48.500000),http://www.wikidata.org/entity/Q1142
 http://www.wikidata.org/entity/Q1400992,Patrick Chauvel,1949,male,"16th arrondissement of Paris",POINT(2.276489 48.863611),http://www.wikidata.org/entity/Q194420
 http://www.wikidata.org/entity/Q142025,Peter Arnett,1934,male,Riverton / Aparima,POINT(168.016667 -46.350000),http://www.wikidata.org/entity/Q152152
 http://www.wikidata.org/entity/Q1452890,Frederick Gutekunst,1831,male,Germantown,POINT(-75.181944 40.043611),http://www.wikidata.org/entity/Q279890
 http://www.wikidata.org/entity/Q14588770,Harry C. Butcher,1901,male,Iowa,POINT(-93.000000 42.000000),http://www.wikidata.org/entity/Q1546
+http://www.wikidata.org/entity/Q1466853,Fritz Joachim Otto,1916,male,Dresden,POINT(13.738144 51.049329),http://www.wikidata.org/entity/Q1731
 http://www.wikidata.org/entity/Q1483880,William Vandivert,1912,male,Evanston,POINT(-87.685000 42.047222),http://www.wikidata.org/entity/Q462799
 http://www.wikidata.org/entity/Q15068490,Grigory Katz,1907,male,Rostov-on-Don,POINT(39.710000 47.222500),http://www.wikidata.org/entity/Q908
+http://www.wikidata.org/entity/Q15069605,Mikhail Koryakov,1911,male,Krasnoyarsk Krai,POINT(91.666667 59.883333),http://www.wikidata.org/entity/Q6563
 http://www.wikidata.org/entity/Q15071250,Viktor Litovkin,1945,male,Troianiv,POINT(28.523055 50.113333),http://www.wikidata.org/entity/Q4464054
 http://www.wikidata.org/entity/Q1508257,George Silk,1916,male,Levin,POINT(175.275000 -40.633330),http://www.wikidata.org/entity/Q1821910
 http://www.wikidata.org/entity/Q15127495,Ghislaine Dupont,1956,female,"20th arrondissement of Paris",POINT(2.399050 48.865061),http://www.wikidata.org/entity/Q210720
@@ -244,6 +255,7 @@ http://www.wikidata.org/entity/Q152524,Robert Capa,1913,male,Budapest,POINT(19.0
 http://www.wikidata.org/entity/Q15259407,Rahul Pandita,1976,male,Jammu and Kashmir,POINT(76.500000 34.000000),http://www.wikidata.org/entity/Q1180
 http://www.wikidata.org/entity/Q153700,Oriana Fallaci,1929,female,Florence,POINT(11.254167 43.771389),http://www.wikidata.org/entity/Q2044
 http://www.wikidata.org/entity/Q15431075,John L. Gihon,1839,male,United States,POINT(-98.579500 39.828175),http://www.wikidata.org/entity/Q30
+http://www.wikidata.org/entity/Q15439990,Franz Zedtwitz,1906,male,Vienna,POINT(16.372500 48.208333),http://www.wikidata.org/entity/Q1741
 http://www.wikidata.org/entity/Q15486525,Joseph McKeown,1925,male,London,POINT(-0.127500 51.507222),http://www.wikidata.org/entity/Q84
 http://www.wikidata.org/entity/Q15489360,J. C. Furnas,1905,male,Indianapolis,POINT(-86.158056 39.768611),http://www.wikidata.org/entity/Q6346
 http://www.wikidata.org/entity/Q155106,Arturo Pérez-Reverte,1951,male,Cartagena,POINT(-0.984167 37.601944),http://www.wikidata.org/entity/Q162615
@@ -281,7 +293,9 @@ http://www.wikidata.org/entity/Q16721278,Vladimir Shuf,1863,male,Moscow,POINT(37
 http://www.wikidata.org/entity/Q1678898,Jakob Baechtold,1848,male,Schleitheim,POINT(8.485100 47.749300),http://www.wikidata.org/entity/Q69111
 http://www.wikidata.org/entity/Q16832221,Jean Ross,1911,female,Alexandria,POINT(29.892500 31.197500),http://www.wikidata.org/entity/Q87
 http://www.wikidata.org/entity/Q16873989,Camille Lepage,1988,female,Angers,POINT(-0.555555 47.472778),http://www.wikidata.org/entity/Q38380
+http://www.wikidata.org/entity/Q16943490,Carles Porta i Gaset,1963,male,Vila-sana,POINT(0.930000 41.664167),http://www.wikidata.org/entity/Q12145
 http://www.wikidata.org/entity/Q16999575,Graham Phillips,1979,male,Nottingham,POINT(-1.149167 52.955000),http://www.wikidata.org/entity/Q41262
+http://www.wikidata.org/entity/Q1699976,Karl Artur Petraschk,1901,male,Dresden,POINT(13.738144 51.049329),http://www.wikidata.org/entity/Q1731
 http://www.wikidata.org/entity/Q1704676,Josef Grabler,1899,male,Sarre-Union,POINT(7.088611 48.940833),http://www.wikidata.org/entity/Q21569
 http://www.wikidata.org/entity/Q1708879,"José-María Siles, Sr",1951,male,Almería,POINT(-2.463889 36.841667),http://www.wikidata.org/entity/Q10400
 http://www.wikidata.org/entity/Q1711704,Jules Gervais-Courtellemont,1863,male,Avon,POINT(2.725000 48.408889),http://www.wikidata.org/entity/Q791277
@@ -315,14 +329,13 @@ http://www.wikidata.org/entity/Q18526918,Frank Vizetelly,1830,male,London,POINT(
 http://www.wikidata.org/entity/Q18540206,Florin Ghioca,1978,male,Bucharest,POINT(26.097778 44.413361),http://www.wikidata.org/entity/Q19660
 http://www.wikidata.org/entity/Q18608721,Karmen Švegl,1979,female,Ormož,POINT(16.150534 46.407126),http://www.wikidata.org/entity/Q1944509
 http://www.wikidata.org/entity/Q18637379,William Gagan,1981,male,Dallas,POINT(-96.808889 32.779167),http://www.wikidata.org/entity/Q16557
-http://www.wikidata.org/entity/Q187850,Mathew Benjamin Brady,1822,male,Warren County,POINT(-73.840000 43.560000),http://www.wikidata.org/entity/Q56151
 http://www.wikidata.org/entity/Q18819927,Peter van Agtmael,1981,male,"Washington, D.C.",POINT(-77.036667 38.895000),http://www.wikidata.org/entity/Q61
 http://www.wikidata.org/entity/Q18911407,Hawthorne Daniel,1890,male,Norfolk,POINT(-97.417000 42.028333),http://www.wikidata.org/entity/Q959951
 http://www.wikidata.org/entity/Q18934250,Kostia Vlastos,1883,male,Paris,POINT(2.352222 48.856667),http://www.wikidata.org/entity/Q90
 http://www.wikidata.org/entity/Q19205061,Georgi Milkov,1973,male,Vidin,POINT(22.874058 43.988690),http://www.wikidata.org/entity/Q178531
 http://www.wikidata.org/entity/Q19240850,Hélène Leune,1890,female,Constantinople,POINT(28.976018 41.012240),http://www.wikidata.org/entity/Q16869
 http://www.wikidata.org/entity/Q19321666,Erich Andres,1905,male,Leipzig,POINT(12.374733 51.340632),http://www.wikidata.org/entity/Q2079
-http://www.wikidata.org/entity/Q19361622,Dušan Moravec,1920,male,Ljubljana,POINT(14.506111 46.051389),http://www.wikidata.org/entity/Q437
+http://www.wikidata.org/entity/Q19361622,Dusan Moravec,1920,male,Ljubljana,POINT(14.506111 46.051389),http://www.wikidata.org/entity/Q437
 http://www.wikidata.org/entity/Q19369165,Sergey Nikolaev,1972,male,Kyiv,POINT(30.523611 50.450000),http://www.wikidata.org/entity/Q1899
 http://www.wikidata.org/entity/Q1950313,Bas Veth,1861,male,Arnhem,POINT(5.916667 51.983333),http://www.wikidata.org/entity/Q1310
 http://www.wikidata.org/entity/Q1963261,Semyon Gudzenko,1922,male,Kyiv,POINT(30.523611 50.450000),http://www.wikidata.org/entity/Q1899
@@ -339,6 +352,8 @@ http://www.wikidata.org/entity/Q20035913,George G. Rockwood,1832,male,Troy,POINT
 http://www.wikidata.org/entity/Q20127454,Alain Lallemand,1962,male,Liège,POINT(5.570556 50.639722),http://www.wikidata.org/entity/Q3992
 http://www.wikidata.org/entity/Q201589,Queen Letizia of Spain,1972,female,Oviedo,POINT(-5.850278 43.362500),http://www.wikidata.org/entity/Q14317
 http://www.wikidata.org/entity/Q202537,Arkady Gaidar,1904,male,Lgov,POINT(35.266667 51.666667),http://www.wikidata.org/entity/Q157790
+http://www.wikidata.org/entity/Q2036564,Oswin Puttrich-Reignard,1906,male,Brotterode,POINT(10.433333 50.833333),http://www.wikidata.org/entity/Q632250
+http://www.wikidata.org/entity/Q2071770,Perry Kretz,1933,male,Cologne,POINT(6.957778 50.942222),http://www.wikidata.org/entity/Q365
 http://www.wikidata.org/entity/Q20724971,Katrin Eigendorf,1962,female,Tönisvorst,POINT(6.493056 51.320833),http://www.wikidata.org/entity/Q163570
 http://www.wikidata.org/entity/Q20749150,Alma Braathen,1906,female,Ревсунд,POINT(15.125361 62.899500),http://www.wikidata.org/entity/Q10651576
 http://www.wikidata.org/entity/Q20752233,Johannes Heinrich Braach,1887,male,Trier,POINT(6.639350 49.755650),http://www.wikidata.org/entity/Q3138
@@ -378,12 +393,14 @@ http://www.wikidata.org/entity/Q230068,Ève Curie,1904,female,"13th arrondisseme
 http://www.wikidata.org/entity/Q23035828,James Francis Jewell Archibald,1871,male,Chautauqua County,POINT(-79.410000 42.300000),http://www.wikidata.org/entity/Q115061
 http://www.wikidata.org/entity/Q23041503,George Abel Schreiner,1875,male,Avricourt,POINT(6.806389 48.650833),http://www.wikidata.org/entity/Q22110
 http://www.wikidata.org/entity/Q23434,Ernest Hemingway,1899,male,Oak Park,POINT(-87.789444 41.888333),http://www.wikidata.org/entity/Q331397
+http://www.wikidata.org/entity/Q2348906,Januarius MacGahan,1844,male,New Lexington,POINT(-82.210556 39.715833),http://www.wikidata.org/entity/Q1927275
 http://www.wikidata.org/entity/Q238364,Margaret Bourke-White,1904,female,The Bronx,POINT(-73.873333 40.846667),http://www.wikidata.org/entity/Q18426
 http://www.wikidata.org/entity/Q2389423,Benjamin Lowy,1979,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
 http://www.wikidata.org/entity/Q24005884,Benjamin Hall,1982,male,London,POINT(-0.127500 51.507222),http://www.wikidata.org/entity/Q84
 http://www.wikidata.org/entity/Q24009876,Olga Allenova,1976,female,Mozdok,POINT(44.650000 43.750000),http://www.wikidata.org/entity/Q46639
 http://www.wikidata.org/entity/Q2401525,Yves Courrière,1935,male,"12th arrondissement of Paris",POINT(2.388183 48.840808),http://www.wikidata.org/entity/Q171689
 http://www.wikidata.org/entity/Q2405682,Terry Lloyd,1952,male,Derby,POINT(-1.476667 52.921667),http://www.wikidata.org/entity/Q43475
+http://www.wikidata.org/entity/Q2418020,Theodor Mögling,1814,male,Brackenheim,POINT(9.066667 49.083333),http://www.wikidata.org/entity/Q53751
 http://www.wikidata.org/entity/Q2434219,Tim Page,1944,male,Royal Tunbridge Wells,POINT(0.263000 51.132000),http://www.wikidata.org/entity/Q665489
 http://www.wikidata.org/entity/Q24352861,Vadim Fefilov,1967,male,Lensk,POINT(114.900000 60.716667),http://www.wikidata.org/entity/Q157493
 http://www.wikidata.org/entity/Q24398939,David Gilkey,1966,male,Portland,POINT(-122.679167 45.515000),http://www.wikidata.org/entity/Q6106
@@ -395,6 +412,7 @@ http://www.wikidata.org/entity/Q25927246,Wolfgang Vennemann,1908,male,Treptow,PO
 http://www.wikidata.org/entity/Q25929740,Kalevi Heikkinen,1911,male,Kestilä,POINT(26.279167 64.351389),http://www.wikidata.org/entity/Q992303
 http://www.wikidata.org/entity/Q262117,H. S. Wong,1900,male,Beijing,POINT(116.407526 39.904030),http://www.wikidata.org/entity/Q956
 http://www.wikidata.org/entity/Q262660,Kevin Carter,1960,male,Johannesburg,POINT(28.041639 -26.204361),http://www.wikidata.org/entity/Q34647
+http://www.wikidata.org/entity/Q2630812,Qaysin Quli,1917,male,Verkhne-Chegemskoye rural community,POINT(43.137222 43.241111),http://www.wikidata.org/entity/Q16629870
 http://www.wikidata.org/entity/Q2636873,Alan Winnington,1910,male,London,POINT(-0.127500 51.507222),http://www.wikidata.org/entity/Q84
 http://www.wikidata.org/entity/Q2646947,Alice Schalek,1874,female,Vienna,POINT(16.372500 48.208333),http://www.wikidata.org/entity/Q1741
 http://www.wikidata.org/entity/Q265131,Lee Miller,1907,female,Poughkeepsie,POINT(-73.930555 41.705278),http://www.wikidata.org/entity/Q178093
@@ -441,6 +459,7 @@ http://www.wikidata.org/entity/Q3019247,Michał Dadlez,1895,male,Rava-Ruska,POIN
 http://www.wikidata.org/entity/Q3026649,Dick de Lonlay,1846,male,Saint-Malo,POINT(-2.026111 48.649444),http://www.wikidata.org/entity/Q163108
 http://www.wikidata.org/entity/Q3048455,Edward Behr,1926,male,"16th arrondissement of Paris",POINT(2.276489 48.863611),http://www.wikidata.org/entity/Q194420
 http://www.wikidata.org/entity/Q30560636,Véronique Robert,1962,female,Morges,POINT(6.498611 46.509447),http://www.wikidata.org/entity/Q69401
+http://www.wikidata.org/entity/Q3060014,Eugène Mannoni,1921,male,Bastia,POINT(9.449444 42.700000),http://www.wikidata.org/entity/Q134698
 http://www.wikidata.org/entity/Q3080180,Fox Butterfield,1939,male,Lancaster,POINT(-76.304445 40.039722),http://www.wikidata.org/entity/Q320514
 http://www.wikidata.org/entity/Q3083410,François-Jean Armorin,1923,male,Crest,POINT(5.022222 44.728333),http://www.wikidata.org/entity/Q327259
 http://www.wikidata.org/entity/Q310900,Robert Fisk,1946,male,Maidstone,POINT(0.529444 51.271667),http://www.wikidata.org/entity/Q213180
@@ -462,10 +481,11 @@ http://www.wikidata.org/entity/Q3161665,Jan Grarup,1968,male,Denmark,POINT(10.00
 http://www.wikidata.org/entity/Q3168550,Jean-Paul Kauffmann,1944,male,Saint-Pierre-la-Cour,POINT(-1.026389 48.115000),http://www.wikidata.org/entity/Q544967
 http://www.wikidata.org/entity/Q3168596,Jean-Paul Mari,1950,male,Algiers,POINT(3.058611 36.776389),http://www.wikidata.org/entity/Q3561
 http://www.wikidata.org/entity/Q3170750,Jean Bertolino,1936,male,Marseille,POINT(5.376389 43.296667),http://www.wikidata.org/entity/Q23482
+http://www.wikidata.org/entity/Q3171138,Jean Carrère,1865,male,Lot-et-Garonne,POINT(0.500000 44.333333),http://www.wikidata.org/entity/Q12578
 http://www.wikidata.org/entity/Q3179715,João Silva,1966,male,Lisbon,POINT(-9.139016 38.708042),http://www.wikidata.org/entity/Q597
 http://www.wikidata.org/entity/Q3181505,John Florea,1916,male,Alliance,POINT(-81.108060 40.913330),http://www.wikidata.org/entity/Q985230
 http://www.wikidata.org/entity/Q318352,Felice Beato,1832,male,Venice,POINT(12.331944 45.439722),http://www.wikidata.org/entity/Q641
-http://www.wikidata.org/entity/Q3189062,Julia Pirotte,1908,female,Końskowola,POINT(22.052778 51.408889),http://www.wikidata.org/entity/Q1959
+http://www.wikidata.org/entity/Q3189062,Julia Pirotte,1907,female,Końskowola,POINT(22.052778 51.408889),http://www.wikidata.org/entity/Q1959
 http://www.wikidata.org/entity/Q3193984,Kate Webb,1943,female,Christchurch,POINT(172.636111 -43.531111),http://www.wikidata.org/entity/Q79990
 http://www.wikidata.org/entity/Q3195015,Ken Bell,1914,male,Toronto,POINT(-79.386667 43.670278),http://www.wikidata.org/entity/Q172
 http://www.wikidata.org/entity/Q3195075,Ken Oosterbroek,1963,male,Johannesburg,POINT(28.041639 -26.204361),http://www.wikidata.org/entity/Q34647
@@ -484,9 +504,11 @@ http://www.wikidata.org/entity/Q3299130,Miroslav Lazanski,1950,male,Karlovac,POI
 http://www.wikidata.org/entity/Q3302258,Max Olivier-Lacamp,1914,male,Le Havre,POINT(0.108056 49.494167),http://www.wikidata.org/entity/Q42810
 http://www.wikidata.org/entity/Q3303778,Brian Barron,1940,male,Bristol,POINT(-2.597500 51.453611),http://www.wikidata.org/entity/Q23154
 http://www.wikidata.org/entity/Q3304570,Namir Noor-Eldeen,1984,male,Mosul,POINT(43.116667 36.366667),http://www.wikidata.org/entity/Q83317
+http://www.wikidata.org/entity/Q33083119,Kenneth R. Rosen,1990,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
 http://www.wikidata.org/entity/Q3310418,Michel Moutot,1961,male,Narbonne,POINT(3.003611 43.184722),http://www.wikidata.org/entity/Q6555
 http://www.wikidata.org/entity/Q3310509,Michel Parbot,1938,male,Boulogne-Billancourt,POINT(2.241389 48.835278),http://www.wikidata.org/entity/Q172455
 http://www.wikidata.org/entity/Q3311260,Robert Stewart,1917,male,Phoenix,POINT(-112.073889 33.448333),http://www.wikidata.org/entity/Q16556
+http://www.wikidata.org/entity/Q3314554,Milutin Uskoković,1884,male,Užice,POINT(19.850000 43.850000),http://www.wikidata.org/entity/Q59473
 http://www.wikidata.org/entity/Q333873,Valentin Kataev,1897,male,Odesa,POINT(30.732620 46.477470),http://www.wikidata.org/entity/Q1874
 http://www.wikidata.org/entity/Q3351411,Olivier Todd,1929,male,Neuilly-sur-Seine,POINT(2.267500 48.887222),http://www.wikidata.org/entity/Q48958
 http://www.wikidata.org/entity/Q3371766,Paul Marchand,1961,male,Amiens,POINT(2.297778 49.891945),http://www.wikidata.org/entity/Q41604
@@ -499,6 +521,7 @@ http://www.wikidata.org/entity/Q3429979,Ri In Mo,1917,male,Kimhyonggwon County,P
 http://www.wikidata.org/entity/Q3436576,Robert Wilton,1868,male,Norfolk,POINT(0.950000 52.672500),http://www.wikidata.org/entity/Q23109
 http://www.wikidata.org/entity/Q345336,Valentin Areh,1971,male,Ljubljana,POINT(14.506111 46.051389),http://www.wikidata.org/entity/Q437
 http://www.wikidata.org/entity/Q345666,Roger Fenton,1819,male,"Crimble Hall, Heywood",POINT(-2.208570 53.604500),http://www.wikidata.org/entity/Q114876258
+http://www.wikidata.org/entity/Q3473254,Sara Daniel,1966,female,Neuilly-sur-Seine,POINT(2.267500 48.887222),http://www.wikidata.org/entity/Q48958
 http://www.wikidata.org/entity/Q34743,Rudyard Kipling,1865,male,Mumbai,POINT(72.877500 19.075833),http://www.wikidata.org/entity/Q1156
 http://www.wikidata.org/entity/Q3486610,Robert F. Sargent,1918,male,St. Charles,POINT(-88.311012 41.919243),http://www.wikidata.org/entity/Q578481
 http://www.wikidata.org/entity/Q3492049,Iosif Berman,1892,male,Burdujeni,POINT(26.279722 47.672222),http://www.wikidata.org/entity/Q18537031
@@ -530,12 +553,12 @@ http://www.wikidata.org/entity/Q38455487,Egbert Guy Fowx,1821,male,Kentucky,POIN
 http://www.wikidata.org/entity/Q387323,Raoul Coutard,1924,male,"4th arrondissement of Paris",POINT(2.355556 48.855556),http://www.wikidata.org/entity/Q230127
 http://www.wikidata.org/entity/Q3888622,Kaveh Golestan,1950,male,Abadan,POINT(48.304167 30.339167),http://www.wikidata.org/entity/Q63049
 http://www.wikidata.org/entity/Q39212,John Steinbeck,1902,male,Salinas,POINT(-121.655555 36.677778),http://www.wikidata.org/entity/Q488125
-http://www.wikidata.org/entity/Q3966492,Spencer Platt,1970,male,Westport,POINT(-73.357895 41.141486),http://www.wikidata.org/entity/Q586762
 http://www.wikidata.org/entity/Q3980231,Taizo Ichinose,1947,male,Takeo,POINT(130.021472 33.194750),http://www.wikidata.org/entity/Q877220
 http://www.wikidata.org/entity/Q4057482,Ğädel Qutuy,1903,male,Tatarsky Kanadey,POINT(46.909400 53.091700),http://www.wikidata.org/entity/Q16014737
 http://www.wikidata.org/entity/Q4065947,Mikhail Andriasov,1914,male,Millerovo,POINT(40.400000 48.916667),http://www.wikidata.org/entity/Q158872
 http://www.wikidata.org/entity/Q4069303,Fedor Aristov,1888,male,Varnavino,POINT(45.092222 57.402778),http://www.wikidata.org/entity/Q3739708
 http://www.wikidata.org/entity/Q4071335,Darya Aslamova,1969,female,Khabarovsk,POINT(135.066667 48.483333),http://www.wikidata.org/entity/Q4454
+http://www.wikidata.org/entity/Q4093646,Sergey Aleksandrovich Borzenko,1909,male,Kharkiv,POINT(36.231111 49.992500),http://www.wikidata.org/entity/Q42308
 http://www.wikidata.org/entity/Q4104509,Aleksey Vasilyev,1939,male,Saint Petersburg,POINT(30.316667 59.950000),http://www.wikidata.org/entity/Q656
 http://www.wikidata.org/entity/Q4104688,Sergey Vasilyev,1911,male,Kurgan,POINT(65.341111 55.440833),http://www.wikidata.org/entity/Q13379
 http://www.wikidata.org/entity/Q4121800,Liya Solomyanskaya,1907,female,Minsk,POINT(27.561837 53.902246),http://www.wikidata.org/entity/Q2280
@@ -566,11 +589,12 @@ http://www.wikidata.org/entity/Q4289341,VItaliy Melentyev,1916,male,Saint Peters
 http://www.wikidata.org/entity/Q430182,C. S. Forester,1899,male,Cairo,POINT(31.235833 30.044444),http://www.wikidata.org/entity/Q85
 http://www.wikidata.org/entity/Q4314393,Maryana Naumova,1999,female,Staraya Russa,POINT(31.350000 57.983333),http://www.wikidata.org/entity/Q196479
 http://www.wikidata.org/entity/Q4327562,Vitaly Noskov,1950,male,Kurgan,POINT(65.341111 55.440833),http://www.wikidata.org/entity/Q13379
+http://www.wikidata.org/entity/Q434185,Ron Ben-Yishai,1943,male,Jerusalem,POINT(35.234156 31.776679),http://www.wikidata.org/entity/Q1218
 http://www.wikidata.org/entity/Q43427815,Vyacheslav Kovalevsky,1897,male,Rylsk,POINT(34.683333 51.566667),http://www.wikidata.org/entity/Q193425
 http://www.wikidata.org/entity/Q434578,Dickey Chapelle,1919,female,Milwaukee,POINT(-87.950000 43.050000),http://www.wikidata.org/entity/Q37836
 http://www.wikidata.org/entity/Q4354075,Alexander Prokofyev,1900,male,Kobona,POINT(31.550556 60.024444),http://www.wikidata.org/entity/Q1961380
 http://www.wikidata.org/entity/Q4354891,Leonid Sobolev,1898,male,Irkutsk,POINT(104.280000 52.289167),http://www.wikidata.org/entity/Q6576
-http://www.wikidata.org/entity/Q4357901,Ruvim Frayerman,1891,male,Mogilev,POINT(30.342960 53.908940),http://www.wikidata.org/entity/Q154835
+http://www.wikidata.org/entity/Q4357901,Ruvim Frayerman,1891,male,Mahilyow,POINT(30.342960 53.908940),http://www.wikidata.org/entity/Q154835
 http://www.wikidata.org/entity/Q436699,Andrew Barton Paterson,1864,male,Orange,POINT(149.101111 -33.281667),http://www.wikidata.org/entity/Q580973
 http://www.wikidata.org/entity/Q4367499,Yevgeny Poddubny,1983,male,Belgorod,POINT(36.600000 50.600000),http://www.wikidata.org/entity/Q3323
 http://www.wikidata.org/entity/Q437013,James Nachtwey,1948,male,Syracuse,POINT(-76.144423 43.046899),http://www.wikidata.org/entity/Q128069
@@ -619,9 +643,11 @@ http://www.wikidata.org/entity/Q4754899,Andre Vltchek,1963,male,Saint Petersburg
 http://www.wikidata.org/entity/Q4768368,Anne Garrels,1951,female,Springfield,POINT(-72.547455 42.112411),http://www.wikidata.org/entity/Q49158
 http://www.wikidata.org/entity/Q4775789,Anton Hammerl,1969,male,Johannesburg,POINT(28.041639 -26.204361),http://www.wikidata.org/entity/Q34647
 http://www.wikidata.org/entity/Q4795029,Arnold Edmund Samuelson,1917,male,Tacoma,POINT(-122.447500 47.252500),http://www.wikidata.org/entity/Q199797
+http://www.wikidata.org/entity/Q4798397,Arthur D. Howden Smith,1887,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
 http://www.wikidata.org/entity/Q4805444,Ashley Gilbertson,1978,male,Melbourne,POINT(144.963056 -37.814167),http://www.wikidata.org/entity/Q3141
 http://www.wikidata.org/entity/Q4808303,Assaad Taha,1956,male,Suez,POINT(32.533333 29.966667),http://www.wikidata.org/entity/Q134514
 http://www.wikidata.org/entity/Q4861783,Barney Rosset,1922,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
+http://www.wikidata.org/entity/Q4867137,Basil Clarke,1879,male,Altrincham,POINT(-2.355669 53.383372),http://www.wikidata.org/entity/Q445058
 http://www.wikidata.org/entity/Q4893308,Bernard Kalb,1922,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
 http://www.wikidata.org/entity/Q4895101,Bert Hardy,1913,male,Blackfriars,POINT(-0.104167 51.512500),http://www.wikidata.org/entity/Q880829
 http://www.wikidata.org/entity/Q49080,Isaak Babel,1894,male,Odesa,POINT(30.732620 46.477470),http://www.wikidata.org/entity/Q1874
@@ -640,6 +666,7 @@ http://www.wikidata.org/entity/Q5004358,Byron G. Highland,1934,male,Detroit,POIN
 http://www.wikidata.org/entity/Q50060717,Shyam Bhatia,1950,male,New Delhi,POINT(77.208889 28.613889),http://www.wikidata.org/entity/Q987
 http://www.wikidata.org/entity/Q5055977,Cecil Brown,1907,male,New Brighton,POINT(-80.310060 40.730340),http://www.wikidata.org/entity/Q1185640
 http://www.wikidata.org/entity/Q50602896,Etelka Kamenyitzky,1875,female,Baraolt,POINT(25.600000 46.075000),http://www.wikidata.org/entity/Q533078
+http://www.wikidata.org/entity/Q5076100,Charles Carleton Coffin,1823,male,Boscawen,POINT(-71.620833 43.315000),http://www.wikidata.org/entity/Q2417269
 http://www.wikidata.org/entity/Q5077053,Charles E. Brown,1896,male,Wimbledon,POINT(-0.217100 51.423500),http://www.wikidata.org/entity/Q736742
 http://www.wikidata.org/entity/Q5077626,Charles Fenno Jacobs,1904,male,Waltham,POINT(-71.235005 42.380596),http://www.wikidata.org/entity/Q49190
 http://www.wikidata.org/entity/Q5084065,Charles à Court Repington,1858,male,Heytesbury,POINT(-2.100000 51.183300),http://www.wikidata.org/entity/Q5749803
@@ -669,11 +696,14 @@ http://www.wikidata.org/entity/Q5289531,Saeed Chmagh,1967,male,Iraq,POINT(43.000
 http://www.wikidata.org/entity/Q529290,Marguerite Higgins,1920,female,British Hong Kong,POINT(114.160327 22.280068),http://www.wikidata.org/entity/Q1054923
 http://www.wikidata.org/entity/Q5294645,Donald Kirk,1938,male,New Brunswick,POINT(-74.444445 40.486667),http://www.wikidata.org/entity/Q138338
 http://www.wikidata.org/entity/Q5341389,Edvarts Virza,1883,male,Rāceņi,POINT(25.191111 57.250833),http://www.wikidata.org/entity/Q28113496
+http://www.wikidata.org/entity/Q5346736,Edwin Palmer Hoyt,1923,male,Portland,POINT(-122.679167 45.515000),http://www.wikidata.org/entity/Q6106
 http://www.wikidata.org/entity/Q5363503,Elizabeth Shepley Sergeant,1881,female,Winchester,POINT(-71.137500 42.452222),http://www.wikidata.org/entity/Q991443
 http://www.wikidata.org/entity/Q5365836,Ellis Ashmead-Bartlett,1881,male,London,POINT(-0.127500 51.507222),http://www.wikidata.org/entity/Q84
 http://www.wikidata.org/entity/Q5386484,Eric Fisher Wood,1889,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
 http://www.wikidata.org/entity/Q5387483,Eric Sevareid,1912,male,Velva,POINT(-100.930000 48.058056),http://www.wikidata.org/entity/Q2278261
-http://www.wikidata.org/entity/Q5415579,إيفان رايت,1964,male,Cleveland,POINT(-81.694722 41.499167),http://www.wikidata.org/entity/Q37320
+http://www.wikidata.org/entity/Q5415579,Evan Wright,1964,male,Cleveland,POINT(-81.694722 41.499167),http://www.wikidata.org/entity/Q37320
+http://www.wikidata.org/entity/Q5441839,Feliks Topolski,1907,male,Warsaw,POINT(21.011111 52.230000),http://www.wikidata.org/entity/Q270
+http://www.wikidata.org/entity/Q5481891,Francis McCullagh,1874,male,Dungannon,POINT(-6.770000 54.500000),http://www.wikidata.org/entity/Q1025602
 http://www.wikidata.org/entity/Q54826186,Bénédicte Kurzen,1980,female,Lyon,POINT(4.835000 45.767500),http://www.wikidata.org/entity/Q456
 http://www.wikidata.org/entity/Q5486856,Frank Gillard,1908,male,Tiverton,POINT(-3.488000 50.903000),http://www.wikidata.org/entity/Q637298
 http://www.wikidata.org/entity/Q5488877,Frank Palmos,1940,male,Melbourne,POINT(144.963056 -37.814167),http://www.wikidata.org/entity/Q3141
@@ -690,6 +720,7 @@ http://www.wikidata.org/entity/Q5534419,Geoffrey Archer,1944,male,London,POINT(-
 http://www.wikidata.org/entity/Q5540586,George Hicks,1905,male,Tacoma,POINT(-122.447500 47.252500),http://www.wikidata.org/entity/Q199797
 http://www.wikidata.org/entity/Q5541147,George Johnston,1912,male,Melbourne,POINT(144.963056 -37.814167),http://www.wikidata.org/entity/Q3141
 http://www.wikidata.org/entity/Q55419434,Edith Dickenson,1851,female,England,POINT(-1.000000 53.000000),http://www.wikidata.org/entity/Q21
+http://www.wikidata.org/entity/Q5545900,George Warrington Steevens,1869,male,Sydenham,POINT(-0.054400 51.425400),http://www.wikidata.org/entity/Q2104233
 http://www.wikidata.org/entity/Q55563652,Liu Sivaya,1994,female,Krasnoyarsk,POINT(92.871944 56.008889),http://www.wikidata.org/entity/Q919
 http://www.wikidata.org/entity/Q55590161,Stéphane Lauzanne,1874,male,Paris,POINT(2.352222 48.856667),http://www.wikidata.org/entity/Q90
 http://www.wikidata.org/entity/Q5559228,Thomas Steinbeck,1944,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
@@ -733,7 +764,7 @@ http://www.wikidata.org/entity/Q6133484,James Erasmus Tracey Phillips,1888,male,
 http://www.wikidata.org/entity/Q6136813,James Jarché,1890,male,Commercial Road,POINT(-0.058611 51.514444),http://www.wikidata.org/entity/Q5152522
 http://www.wikidata.org/entity/Q6150576,Jana Schneider,1951,female,McFarland,POINT(-89.291110 43.018330),http://www.wikidata.org/entity/Q2370269
 http://www.wikidata.org/entity/Q6154487,Janina Broniewska,1904,female,Kalisz,POINT(18.083000 51.757000),http://www.wikidata.org/entity/Q52842
-http://www.wikidata.org/entity/Q61589051,Viktor Verstakov,1951,male,Polotsk District,POINT(28.800000 55.483333),http://www.wikidata.org/entity/Q1423032
+http://www.wikidata.org/entity/Q61589051,Viktor Verstakov,1951,male,Polatsak District,POINT(28.800000 55.483333),http://www.wikidata.org/entity/Q1423032
 http://www.wikidata.org/entity/Q61597,Erika Mann,1905,female,Munich,POINT(11.575000 48.137500),http://www.wikidata.org/entity/Q1726
 http://www.wikidata.org/entity/Q6173254,Jeff B. Harmon,1953,male,United States,POINT(-98.579500 39.828175),http://www.wikidata.org/entity/Q30
 http://www.wikidata.org/entity/Q6173656,Angela Rodicio,1963,female,"San Cristovo de Regodeigón, Ribadavia",POINT(-8.132597 42.311564),http://www.wikidata.org/entity/Q12399598
@@ -757,6 +788,7 @@ http://www.wikidata.org/entity/Q65648484,Petros Poulidis,1885,male,Tseritsana,PO
 http://www.wikidata.org/entity/Q66041141,Susanne Glass,1970,female,Schwäbisch Gmünd,POINT(9.800000 48.800000),http://www.wikidata.org/entity/Q4037
 http://www.wikidata.org/entity/Q661176,Alexander Gardner,1821,male,Paisley,POINT(-4.423889 55.845556),http://www.wikidata.org/entity/Q211870
 http://www.wikidata.org/entity/Q66487154,Xu Huaizhong,1929,male,Handan,POINT(114.489370 36.611610),http://www.wikidata.org/entity/Q58570
+http://www.wikidata.org/entity/Q6673853,Robert Sherrod,1909,male,Thomas County,POINT(-83.920000 30.860000),http://www.wikidata.org/entity/Q498327
 http://www.wikidata.org/entity/Q6688023,Louis R. Lowery,1916,male,Pittsburgh,POINT(-80.000000 40.441667),http://www.wikidata.org/entity/Q1342
 http://www.wikidata.org/entity/Q6688835,Louise Mack,1870,female,Hobart,POINT(147.316667 -42.883333),http://www.wikidata.org/entity/Q40191
 http://www.wikidata.org/entity/Q671985,Arkady Babchenko,1977,male,Moscow,POINT(37.617500 55.750556),http://www.wikidata.org/entity/Q649
@@ -766,8 +798,9 @@ http://www.wikidata.org/entity/Q6758045,Marcus Bleasdale,1968,male,United Kingdo
 http://www.wikidata.org/entity/Q6767269,Mark Danner,1958,male,Utica,POINT(-75.232500 43.100833),http://www.wikidata.org/entity/Q2495519
 http://www.wikidata.org/entity/Q6774522,Martha Raddatz,1953,female,Idaho Falls,POINT(-112.032500 43.491667),http://www.wikidata.org/entity/Q496360
 http://www.wikidata.org/entity/Q6779734,Mary Hastings Bradley,1882,female,Chicago,POINT(-87.627778 41.881944),http://www.wikidata.org/entity/Q1297
+http://www.wikidata.org/entity/Q6790634,Matthew Halton,1904,male,Pincher Creek,POINT(-113.948222 49.485639),http://www.wikidata.org/entity/Q1744046
 http://www.wikidata.org/entity/Q6791162,Matthew Rosenberg,1974,male,New York City,POINT(-74.006111 40.712778),http://www.wikidata.org/entity/Q60
-http://www.wikidata.org/entity/Q6793132,Maurice G. Hindus,1891,male,Mogilev region,POINT(30.386300 53.725400),http://www.wikidata.org/entity/Q189822
+http://www.wikidata.org/entity/Q6793132,Maurice G. Hindus,1891,male,Mahilyow Region,POINT(30.386300 53.725400),http://www.wikidata.org/entity/Q189822
 http://www.wikidata.org/entity/Q6830516,Michael Gannon,1927,male,Fort Sill,POINT(-98.508333 34.704167),http://www.wikidata.org/entity/Q1018681
 http://www.wikidata.org/entity/Q6835217,Michael Ware,1969,male,Brisbane,POINT(153.027778 -27.467778),http://www.wikidata.org/entity/Q34932
 http://www.wikidata.org/entity/Q6860560,Milovan Drecun,1957,male,Vranje,POINT(21.897222 42.554167),http://www.wikidata.org/entity/Q211645
@@ -794,6 +827,7 @@ http://www.wikidata.org/entity/Q721574,Carol Szathmari,1812,male,Cluj-Napoca,POI
 http://www.wikidata.org/entity/Q72417490,Adolf Strausz,1853,male,Cece,POINT(18.634611 46.771480),http://www.wikidata.org/entity/Q378836
 http://www.wikidata.org/entity/Q724357,Mikhail Svetlov,1903,male,Dnipro,POINT(35.040000 48.467500),http://www.wikidata.org/entity/Q48256
 http://www.wikidata.org/entity/Q7274096,R. W. Apple Jr.,1934,male,Akron,POINT(-81.517778 41.073056),http://www.wikidata.org/entity/Q163132
+http://www.wikidata.org/entity/Q72826,Henri Nannen,1913,male,Emden,POINT(7.206111 53.366944),http://www.wikidata.org/entity/Q4174
 http://www.wikidata.org/entity/Q7287683,Ralph Ingersoll,1900,male,New Haven,POINT(-72.925000 41.308333),http://www.wikidata.org/entity/Q49145
 http://www.wikidata.org/entity/Q7294925,Rashid Talukder,1939,male,Budge Budge,POINT(88.173933 22.473657),http://www.wikidata.org/entity/Q858488
 http://www.wikidata.org/entity/Q7298605,Raymond Bonner,1942,male,Jefferson City,POINT(-92.173611 38.576667),http://www.wikidata.org/entity/Q28180
@@ -834,6 +868,7 @@ http://www.wikidata.org/entity/Q78185432,Валерий Иванович Дем�
 http://www.wikidata.org/entity/Q7831270,Tracey Shelton,1901,female,Darraweit Guim,POINT(144.900000 -37.400000),http://www.wikidata.org/entity/Q2522642
 http://www.wikidata.org/entity/Q7860035,Tyler Hicks,1969,male,São Paulo,POINT(-46.633947 -23.550394),http://www.wikidata.org/entity/Q174
 http://www.wikidata.org/entity/Q786531,Jack Turner,1889,male,O'Leary,POINT(-64.230600 46.706900),http://www.wikidata.org/entity/Q3347411
+http://www.wikidata.org/entity/Q788563,Kenneth Slessor,1901,male,Orange,POINT(149.101111 -33.281667),http://www.wikidata.org/entity/Q580973
 http://www.wikidata.org/entity/Q79059219,Mstyslav Chernov,1985,male,Kharkiv,POINT(36.231111 49.992500),http://www.wikidata.org/entity/Q42308
 http://www.wikidata.org/entity/Q7920769,Vera Elkan,1908,female,Johannesburg,POINT(28.041639 -26.204361),http://www.wikidata.org/entity/Q34647
 http://www.wikidata.org/entity/Q7926046,Victor Jorgensen,1913,male,Portland,POINT(-122.679167 45.515000),http://www.wikidata.org/entity/Q6106
@@ -909,7 +944,6 @@ http://www.wikidata.org/entity/Q960196,Roman Karmen,1906,male,Odesa,POINT(30.732
 http://www.wikidata.org/entity/Q96098920,Carlos Massa Sanguinetti,1823,male,Madrid,POINT(-3.703333 40.416944),http://www.wikidata.org/entity/Q2807
 http://www.wikidata.org/entity/Q96655342,Ferenc Gallyas,1907,male,Budapest,POINT(19.040833 47.498333),http://www.wikidata.org/entity/Q1781
 http://www.wikidata.org/entity/Q96773343,Luke Mogelson,1982,male,St. Louis,POINT(-90.199444 38.626389),http://www.wikidata.org/entity/Q38022
-http://www.wikidata.org/entity/Q97175753,"Ткаченко, Алексей Матвеевич",1916,male,Podolia Governorate,POINT(26.583333 48.666667),http://www.wikidata.org/entity/Q277861
 http://www.wikidata.org/entity/Q975877,Ad van Liempt,1949,male,Utrecht,POINT(5.121667 52.090833),http://www.wikidata.org/entity/Q803
 http://www.wikidata.org/entity/Q976238,Momo Kapor,1937,male,Sarajevo,POINT(18.413056 43.856389),http://www.wikidata.org/entity/Q11194
 http://www.wikidata.org/entity/Q980296,Kurt Schork,1947,male,"Washington, D.C.",POINT(-77.036667 38.895000),http://www.wikidata.org/entity/Q61
