@@ -1,0 +1,251 @@
+-- clean up database and save space
+-- after big deletes, notably tables
+VACUUM;
+
+select *
+from person_coded_features
+limit 100;
+
+
+
+select *
+from mca_kmeans_clusters_centroids
+WHERE "index" IN (19) --(14) --(11,5,30)
+AND run='cen32' 
+order by "index";
+
+
+SELECT *
+FROM kmodes_clusters_centroids
+WHERE cluster IN (22) --(19,31,14)--(10,28)
+AND run='cen32' --'cen32'
+order by cluster;
+
+
+
+SELECT mkc.person_uri, mkc.cluster cluster_kmean, kc.cluster cluster_kmode
+from mca_kmeans_clusters mkc, kmodes_clusters kc 
+where mkc.person_uri = kc.person_uri
+and mkc.run = 'cen32'
+and kc.run = 'cen32'
+order by cluster_kmean, cluster_kmode;
+
+
+SELECT mkc.cluster cluster_kmean, kc.cluster cluster_kmode, pcf.*
+from mca_kmeans_clusters mkc, kmodes_clusters kc, person_coded_features pcf
+where mkc.person_uri = kc.person_uri
+and mkc.run = 'cen32'
+and kc.run = 'cen32'
+and pcf.person_uri = mkc.person_uri 
+and pcf.person_uri = kc.person_uri 
+order by cluster_kmean, cluster_kmode;
+
+
+SELECT mkc.cluster, kc.cluster, 
+	count(*) as num--, count(kc.cluster) c_mode, count(mkc.cluster) c_meand
+from mca_kmeans_clusters mkc, kmodes_clusters kc 
+where mkc.person_uri = kc.person_uri
+and mkc.run = 'cen32'
+and kc.run = 'cen32'
+group BY mkc.cluster, kc.cluster;
+
+
+-- 
+with tw1 as (SELECT kc.cluster, count(*) as kmodes_num
+from kmodes_clusters kc
+group by kc.cluster
+),
+tw2 as (SELECT mkc.cluster, count(*) as kmeans_num
+from mca_kmeans_clusters mkc
+group BY mkc.cluster)
+SELECT mkc.cluster, kc.cluster, 
+	count(*) as num_common_persons, kmodes_num,
+	kmeans_num, CAST(count(*) AS REAL)/kmodes_num  as prop_kmodes, 
+	CAST(count(*) AS REAL)/kmeans_num as prop_kmeans
+from mca_kmeans_clusters mkc, kmodes_clusters kc, tw1, tw2
+where mkc.person_uri = kc.person_uri
+and mkc.run = 'cen32'
+and kc.run = 'cen32'
+and tw1.cluster = kc.cluster 
+and tw2.cluster = mkc.cluster 
+group BY mkc.cluster, kc.cluster
+having prop_kmodes > 0.4 or prop_kmeans > 0.4
+order by num_common_persons desc;
+order by prop_kmeans desc, prop_kmodes  desc ;
+--order by prop_kmodes desc, prop_kmeans desc ;
+
+
+
+
+
+
+/*
+ * K-modes
+ * 
+ * Explore
+ */
+
+
+-- runs are the phases where you test with different 
+-- numbers of clusters : 400
+SELECT run, count(*) as num
+-- persons and their cluster in each run
+FROM kmodes_clusters
+group BY run ;
+
+
+
+-- cluster profiles: 44
+SELECT run, count(*) as num
+FROM kmodes_clusters_centroids 
+group BY run ;
+
+
+-- instpect cluster profiles
+SELECT round(CAST(n_centroid AS REAL)/number, 2) prop_centroids, round(CAST(number_f AS REAL)/number, 2) prop_female,
+*
+FROM kmodes_clusters_centroids
+WHERE 1 -- 1 is alway true, no filter condition
+-- choose cluster numbers 
+--AND cluster IN (20,18) --(26,20,22, 12,25)
+-- choose runs (i.e. cluster nodes)
+AND run='cen64'
+--AND run='cen64'
+AND prop_female > 0.1
+order by prop_female desc;
+
+
+with tw1 as (SELECT cluster, count(*) tot
+FROM kmodes_clusters ks
+join person_coded_features pcf on ks.person_uri = pcf.person_uri 
+where run='cen32'
+group by cluster), 
+tw2 AS (
+SELECT cluster, pcf.per_activ, count(*) num
+FROM kmodes_clusters ks
+join person_coded_features pcf on ks.person_uri = pcf.person_uri 
+--where run='cen32'
+where run='cen64'
+group by cluster, pcf.per_activ 
+order by cluster, num DESC)
+select tw1.cluster, tw2.per_activ, tw2.num, tw1.tot, round(CAST(tw2.num AS REAL)/tw1.tot,2) as prop
+from tw2 join tw1 on tw1.cluster = tw2.cluster;
+
+
+
+with tw1 as (SELECT cluster, count(*) tot
+FROM kmodes_clusters ks
+join person_coded_features pcf on ks.person_uri = pcf.person_uri 
+where run='cen32'
+group by cluster), 
+tw2 AS (
+SELECT cluster, pcf.per_activ, count(*) num
+FROM kmodes_clusters ks
+join person_coded_features pcf on ks.person_uri = pcf.person_uri 
+--where run='cen32'
+where run='cen64'
+group by cluster, pcf.per_activ 
+order by cluster, num DESC),
+tw3 AS (
+select tw1.cluster, tw2.per_activ, tw2.num, tw1.tot, round(CAST(tw2.num AS REAL)/tw1.tot,2) as prop
+from tw2 join tw1 on tw1.cluster = tw2.cluster)
+select cluster, max(prop) as max_prop
+from tw3
+group by cluster
+;
+
+
+
+
+
+
+SELECT cluster, pcf.per_activ, count(*) num
+FROM kmodes_clusters ks
+join person_coded_features pcf on ks.person_uri = pcf.person_uri 
+where run='cen32'
+group by cluster, pcf.per_activ 
+order by cluster, num DESC;
+
+
+SELECT cluster, count(*)
+FROM kmodes_clusters ks
+join person_coded_features pcf on ks.person_uri = pcf.person_uri 
+where run='cen32'
+group by cluster;
+
+
+
+/*
+ * K-means clusters
+ */
+
+
+select *
+from mca_kmeans_clusters
+limit 10;
+
+
+select run, count(*) as num
+from mca_kmeans_clusters
+group by run
+order by num desc;
+
+
+
+select *
+from mca_kmeans_clusters_centroids
+limit 10;
+
+
+
+select run, count(*) as num
+from mca_kmeans_clusters_centroids
+group by run
+order by num desc;
+
+
+
+SELECT run, count(*) as num
+FROM kmodes_clusters_centroids 
+group BY run ;
+
+--delete from mca_kmeans_clusters_centroids
+
+select *
+from mca_kmeans_clusters_centroids
+WHERE  run='cen54' -- 'cen32'
+--AND "index" IN (12) --(11,5,30) 
+AND country like '%united%'
+order by number_in_cl DESC;
+order by "index";
+
+
+
+
+select cluster, periodsActivity, count(*) as num
+from mca_kmeans_clusters_centroids
+group by cluster, periodsActivity
+order by cluster, num desc;
+
+
+select cluster, periodsActivity, count(*) as num
+from ACM_kmeans_c15
+group by cluster, periodsActivity
+order by cluster, num desc;
+
+
+
+-- Query for cluster alignment test	
+SELECT mkc.person_uri, mkc.cluster cluster_kmean, kc.cluster cluster_kmode
+from mca_kmeans_clusters mkc, kmodes_clusters kc 
+where mkc.person_uri = kc.person_uri
+order by cluster_kmean, cluster_kmode ;
+
+
+
+
+
+
+
+
+
