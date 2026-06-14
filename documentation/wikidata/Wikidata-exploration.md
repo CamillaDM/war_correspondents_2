@@ -28,7 +28,7 @@ The objective of this stage of the workflow is to analyse the available informat
 To begin with, we select a few people from the population chosen for the research and inspect their entries in Wikidata. This allows us to identify the properties that will enable us to find the population and determine what information is available.
 
 * [Gilles Caron](http://www.wikidata.org/entity/Q454784)
-  * On this page or 'card' we can inspect the RDF triples available about this person in the Wikidata knowledge graph
+  * On this page or 'card' we can inspect the RDF triples available about this person in the Wikidata knowledge graph
   * Carefullyl inspect the properties ‘employer’ and ‘position held’
     * Cf. the ['card' of the same person in DBpedia](https://dbpedia.org/page/Gilles_Caron)
     * Note the difference between a property-centered ontology and an assertion-centered ontology, which de facto contains implicit temporalities.
@@ -61,13 +61,10 @@ WHERE {
 
     ?item wdt:P31 wd:Q5;  # Any instance of a human.
   
-          wdt:P106 wd:Q164236 # war correspodent 
-  
-
+          wdt:P106 wd:Q164236 # war correspondent 
     # wdt:P101 wd:Q17042980 # war journalism
-    # wdt:P106 wd:Q11496048 # war photographer
+    # wdt:P106 wd:Q11496048 # war photographer
     # wdt:P101 wd:Q605789 # war photography
-
 
 }  
 ```
@@ -76,7 +73,7 @@ WHERE {
 
 We use here the **UNION** clause which allows to express an **OR** condition and merge two populations.
 
-#### War journalism
+#### War journalists
 
 1266 as of April 26, 2026.
 
@@ -90,7 +87,7 @@ WHERE {
 }  
 ```
 
-#### War photography
+#### War photographers
 
 367 as of April 26, 2026.
 
@@ -129,7 +126,7 @@ WHERE {
 
 1480 as of April 26, 2026.
 
-There is an overlap of approximately 7,800 individuals who are both astronomers and physicists.
+There is an overlap of approximately 7,800 individuals who are both war-journalists and war-photographers.
 
 Please note that **SPARQL operates in a layered manner**: the innermost layer is executed first and the result set is then sent to the next layer up.
 
@@ -202,9 +199,9 @@ WHERE {
     ?item wdt:P31 wd:Q5;  # Any instance of a human.
             wdt:P569 ?birthDate.
   BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981)
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)
   
-    ### Two ways of getting labels
+    ### Two ways of getting labels
     # SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 
     ## This is useful for query from external tool
@@ -305,12 +302,12 @@ WHERE
         }  
   
         ?item rdfs:label ?itemLabel. 
-		BIND(LANG(?itemLabel) as ?iso_lang)
+        BIND(LANG(?itemLabel) as ?iso_lang)
   
        }
-	   GROUP BY ?item ?year
-	   ORDER BY ?item
-	   LIMIT 100
+       GROUP BY ?item ?year
+       ORDER BY ?item
+       LIMIT 100
 ```
 
 ## List the available properties and their numbers.
@@ -341,9 +338,9 @@ WHERE {
                 {?item wdt:P106 wd:Q11496048}
                 UNION
                 {?item wdt:P101 wd:Q605789}.
-			?item ?p ?o.
+            ?item ?p ?o.
         }
-		GROUP BY ?p
+        GROUP BY ?p
     }
 
     ## we need this construct to get the label of the property
@@ -398,9 +395,9 @@ WHERE {
                 {?item wdt:P101 wd:Q605789}.
 
             ## inversed triple
-			?s ?p ?item.
+            ?s ?p ?item.
         }
-		GROUP BY ?p
+        GROUP BY ?p
     }
     ?prop wikibase:directClaim ?p .
 
@@ -412,17 +409,16 @@ ORDER BY DESC(?eff)
 
 Relevant incoming properties:
 
-
-p	propLabel	eff	notes
-http://www.wikidata.org/prop/direct/P50	author	19954	
-http://www.wikidata.org/prop/direct/P170	creator	1210	
-http://www.wikidata.org/prop/direct/P10661	exhibited creator	447	
-http://www.wikidata.org/prop/direct/P921	main subject	441	
-http://www.wikidata.org/prop/direct/P58	screenwriter	369	
-http://www.wikidata.org/prop/direct/P138	named after	318	
-http://www.wikidata.org/prop/direct/P26	spouse	215	
-http://www.wikidata.org/prop/direct/P180	depicts	193	
-http://www.wikidata.org/prop/direct/P40	child	187	
+p   propLabel   eff notes
+http://www.wikidata.org/prop/direct/P50 author  19954   
+http://www.wikidata.org/prop/direct/P170    creator 1210    
+http://www.wikidata.org/prop/direct/P10661  exhibited creator   447 
+http://www.wikidata.org/prop/direct/P921    main subject    441 
+http://www.wikidata.org/prop/direct/P58 screenwriter    369 
+http://www.wikidata.org/prop/direct/P138    named after 318 
+http://www.wikidata.org/prop/direct/P26 spouse  215 
+http://www.wikidata.org/prop/direct/P180    depicts 193 
+http://www.wikidata.org/prop/direct/P40 child   187 
 
 This is just a portion of the resulting downloaded CSV. If you have more you should also create a dedicated page for the incoming properties.
 
@@ -450,22 +446,22 @@ WHERE {
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
             {?item wdt:P106 wd:Q164236.
-			BIND ('war journalist' as ?itemType)}
+            BIND ('war journalist' as ?itemType)}
             UNION
             {?item wdt:P101 wd:Q17042980.
-			BIND ('war journalist' as ?itemType).} 
+            BIND ('war journalist' as ?itemType).} 
             UNION
             {?item wdt:P106 wd:Q11496048.
-			BIND ('war photograph' as ?itemType)}
+            BIND ('war photograph' as ?itemType)}
             UNION
             {?item wdt:P101 wd:Q605789.
-			BIND ('war photograph' as ?itemType)}
-			.
-			?item ?p ?o.
+            BIND ('war photograph' as ?itemType)}
+            .
+            ?item ?p ?o.
         }
-		GROUP BY ?p ?itemType
-        ## limit to more frequent properties
-		HAVING(?eff >= 100)
+        GROUP BY ?p ?itemType
+        ## limit to more frequent properties
+        HAVING(?eff >= 100)
     }
     ?prop wikibase:directClaim ?p .
 
@@ -488,7 +484,6 @@ SELECT ?p ?propLabel (max(?eff) as ?max_eff)
 (group_concat(concat(str(?eff), ' ', ?itemType); separator=" | ") as ?eff_type)
 WHERE {
 
-
 SELECT ?p ?propLabel ?eff ?itemType
 WHERE {
 {
@@ -499,29 +494,29 @@ WHERE {
         BIND(REPLACE(str(?birthDate), "(.*)([0-9]{4})(.*)", "$2") AS ?year)
         FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001)# Any instance of a human.
              {?item wdt:P106 wd:Q164236.
-			BIND ('war journalist' as ?itemType)}
+            BIND ('war journalist' as ?itemType)}
             UNION
             {?item wdt:P101 wd:Q17042980.
-			BIND ('war journalist' as ?itemType).} 
+            BIND ('war journalist' as ?itemType).} 
             UNION
             {?item wdt:P106 wd:Q11496048.
-			BIND ('war photograph' as ?itemType)}
+            BIND ('war photograph' as ?itemType)}
             UNION
             {?item wdt:P101 wd:Q605789.
-			BIND ('war photograph' as ?itemType)}
-			.
-			?item ?p ?o.
+            BIND ('war photograph' as ?itemType)}
+            .
+            ?item ?p ?o.
         }
-		GROUP BY ?p ?itemType
-		HAVING(?eff >= 100)
+        GROUP BY ?p ?itemType
+        HAVING(?eff >= 100)
     }
     ?prop wikibase:directClaim ?p .
 
     ?prop rdfs:label ?propLabel.
         FILTER(LANG(?propLabel) = 'en')
     }  
-	}
-	GROUP BY ?p ?propLabel
+    }
+    GROUP BY ?p ?propLabel
      ORDER BY desc(?max_eff)
 
 ```

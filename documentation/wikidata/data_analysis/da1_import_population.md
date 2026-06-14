@@ -18,12 +18,11 @@ PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-
 SELECT DISTINCT (?item AS ?person_uri) ?year ?gender_label ?gender_uri 
 WHERE {
             {?item wdt:P106 wd:Q164236}  # war journalist
             UNION
-            {?item wdt:P101 wd:Q17042980}     # war journalism
+            {?item wdt:P101 wd:Q17042980} # war journalism
             UNION
             {?item wdt:P106 wd:Q11496048}  # war photographer
             UNION
@@ -33,7 +32,7 @@ WHERE {
                 wdt:P569 ?birthDate; # It must necessarily have a birth date property
 
         BIND(year(?birthDate) as ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981 )
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001 )
   
         OPTIONAL {
             # The item can have or not a gender property
@@ -63,7 +62,7 @@ ORDER BY ?item
 
 * Inspect the data in the table using the graphical user interface (GUI)
 * Create a new text file called [*da1-import-population.sql*](da1-import-population.sql) (copy it from my own example and follow it) on the side of this import file.
-* Open the SQL file in DBeaver, activate the connection to your *data_analysis.db* and follow the instructions in the file, and add your own queries.
+* Open the SQL file in DBeaver, activate the connection to your *data_analysis.db* and follow the instructions in the file, and add your own queries.
 
 ## Import labels
 
@@ -74,7 +73,6 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
 
 SELECT DISTINCT (?item AS ?person_uri) ?person_label
 WHERE {
@@ -90,7 +88,7 @@ WHERE {
                 wdt:P569 ?birthDate; # It must necessarily have a birth date property
 
         BIND(year(?birthDate) as ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981 )
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001 )
   
             ?item rdfs:label ?person_label.
             FILTER(LANG(?person_label) = 'en')
@@ -100,7 +98,7 @@ ORDER BY ?item
 
 * execute the SPARQL query
 * export the result in a CSV file called 'data/wdt_csv_data/import_person_label_en.csv'
-* import the CSV into the SQLITE database as you did above, into a new table called "import_person_label".
+* import the CSV into the SQLITE database as you did above, into a new table called "import_person_label".
 
 ### We then look for non-English labels for the missing ones
 
@@ -109,7 +107,6 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
 
 SELECT DISTINCT (?item AS ?person_uri) (min(?person_label_al) as ?person_label )
 #SELECT (COUNT(*) AS ?n)
@@ -126,7 +123,7 @@ WHERE {
                 wdt:P569 ?birthDate; # It must necessarily have a birth date property
 
         BIND(year(?birthDate) as ?year)
-        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 1981 )
+        FILTER(xsd:integer(?year) > 1780 && xsd:integer(?year) < 2001 )
         MINUS{?item rdfs:label ?person_label_en.
               FILTER(LANG(?person_label_en) = 'en')   }
        ?item rdfs:label ?person_label_al.
@@ -142,4 +139,6 @@ GROUP BY ?item
 note
 ## Prepare the data for the analysis of birth year and gender
 
-* execute the SQL query at the bottom of the the file [*da1-import-population.sql*](da1-import-population.sql), export the result as CSV (button export data at the botton) than save the CSV file in this path *[notebooks_jupyter/wikidata_exploration/da_data/da1-birth-date-gender.csv](../../../notebooks_jupyter/wikidata_exploration/da_data/da1-birth-date-gender.csv)*
+* execute the SQL query at the bottom of the the file [*da1-import-population.sql*](da1-import-population.sql), export the result as CSV (button export data at the botton) than save the CSV file in this path *[notebooks_jupyter/wikidata_exploration/da_data/da1-birth-date-gender.csv](../../../notebooks_jupyter/wikidata_exploration/da_data/da1-birth-date-gender.csv)*
+
+
