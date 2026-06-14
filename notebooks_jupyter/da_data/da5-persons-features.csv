@@ -1,219 +1,242 @@
-"pk_person_features","person_uri","occupation_main","occupation_sec1","coded_employer"
-14,http://www.wikidata.org/entity/Q104590752,war-photographer,photojournalist,newspaper
-18,http://www.wikidata.org/entity/Q106117785,war-correspondent,writer,newspaper
-20,http://www.wikidata.org/entity/Q1064279,war-correspondent,journalist,television
-22,http://www.wikidata.org/entity/Q106490483,war-correspondent,newspaper-editor,newspaper
-31,http://www.wikidata.org/entity/Q1072114,war-correspondent,painter,other
-32,http://www.wikidata.org/entity/Q107647521,war-correspondent,war-photographer,enterprise
-42,http://www.wikidata.org/entity/Q108321855,war-photographer,illustrator,other
-44,http://www.wikidata.org/entity/Q108429845,war-correspondent,journalist,newspaper
-46,http://www.wikidata.org/entity/Q108561804,war-correspondent,journalist,newspaper
-51,http://www.wikidata.org/entity/Q109326653,war-correspondent,journalist,television
-53,http://www.wikidata.org/entity/Q109773247,war-correspondent,journalist,television
-63,http://www.wikidata.org/entity/Q110990047,war-correspondent,painter,newspaper
-65,http://www.wikidata.org/entity/Q111288494,war-correspondent,journalist,enterprise
-68,http://www.wikidata.org/entity/Q1113742,war-correspondent,journalist,newspaper
-74,http://www.wikidata.org/entity/Q111469300,war-correspondent,journalist,agency
-81,http://www.wikidata.org/entity/Q111685918,war-correspondent,photographer,newspaper
-83,http://www.wikidata.org/entity/Q111765027,war-photographer,television-journalist,television
-93,http://www.wikidata.org/entity/Q112054838,war-correspondent,academic-administrator,newspaper
-94,http://www.wikidata.org/entity/Q112074603,war-correspondent,actor,newspaper
-95,http://www.wikidata.org/entity/Q112103588,war-correspondent,memoirist,newspaper
-104,http://www.wikidata.org/entity/Q112326997,war-correspondent,writer,enterprise
-119,http://www.wikidata.org/entity/Q112546143,war-correspondent,journalist,newspaper
-132,http://www.wikidata.org/entity/Q113499941,war-correspondent,photographer,newspaper
-140,http://www.wikidata.org/entity/Q115037452,war-correspondent,journalist,newspaper
-142,http://www.wikidata.org/entity/Q115407029,war-photographer,photojournalist,enterprise
-143,http://www.wikidata.org/entity/Q115408489,war-photographer,photojournalist,enterprise
-150,http://www.wikidata.org/entity/Q115963230,war-correspondent,journalist,agency
-152,http://www.wikidata.org/entity/Q116062773,war-correspondent,photojournalist,newspaper
-157,http://www.wikidata.org/entity/Q117121102,war-correspondent,war-photographer,agency
-158,http://www.wikidata.org/entity/Q11715707,war-correspondent,journalist,newspaper
-160,http://www.wikidata.org/entity/Q117220565,war-photographer,cinematographer,agency
-169,http://www.wikidata.org/entity/Q118876501,war-correspondent,diplomat,newspaper
-170,http://www.wikidata.org/entity/Q11904754,war-correspondent,journalist,newspaper
-173,http://www.wikidata.org/entity/Q120085,war-correspondent,journalist,enterprise
-180,http://www.wikidata.org/entity/Q12105929,war-correspondent,painter,enterprise
-195,http://www.wikidata.org/entity/Q123110455,war-correspondent,journalist,enterprise
-197,http://www.wikidata.org/entity/Q123352,war-correspondent,journalist,other
-199,http://www.wikidata.org/entity/Q123531486,war-correspondent,novelist,enterprise
-205,http://www.wikidata.org/entity/Q12411282,war-correspondent,journalist,enterprise
-206,http://www.wikidata.org/entity/Q124158563,war-correspondent,journalist,enterprise
-226,http://www.wikidata.org/entity/Q125649890,war-correspondent,reporter,newspaper
-232,http://www.wikidata.org/entity/Q1274616,war-correspondent,journalist,other
-233,http://www.wikidata.org/entity/Q12749616,war-correspondent,journalist,television
-242,http://www.wikidata.org/entity/Q12792181,war-correspondent,journalist,other
-245,http://www.wikidata.org/entity/Q128799375,war-correspondent,reporter,newspaper
-249,http://www.wikidata.org/entity/Q130211524,war-correspondent,journalist,newspaper
-252,http://www.wikidata.org/entity/Q130551164,war-photographer,photojournalist,newspaper
-256,http://www.wikidata.org/entity/Q131324277,war-correspondent,filmmaker,other
-270,http://www.wikidata.org/entity/Q133284665,war-correspondent,journalist,other
-273,http://www.wikidata.org/entity/Q133653,war-correspondent,journalist,newspaper
-280,http://www.wikidata.org/entity/Q1348644,war-photographer,journalist,newspaper
-286,http://www.wikidata.org/entity/Q135493752,war-correspondent,journalist,newspaper
-288,http://www.wikidata.org/entity/Q13560405,war-correspondent,journalist,newspaper
-291,http://www.wikidata.org/entity/Q13562982,war-correspondent,journalist,newspaper
-296,http://www.wikidata.org/entity/Q136213693,war-correspondent,cinematographer,enterprise
-299,http://www.wikidata.org/entity/Q136386664,war-correspondent,journalist,newspaper
-300,http://www.wikidata.org/entity/Q136631472,war-correspondent,translator,other
-303,http://www.wikidata.org/entity/Q1371063,war-photographer,journalist,enterprise
-316,http://www.wikidata.org/entity/Q1388736,war-correspondent,writer,newspaper
-318,http://www.wikidata.org/entity/Q139545676,war-correspondent,writer,newspaper
-324,http://www.wikidata.org/entity/Q1483880,war-photographer,photographer,enterprise
-326,http://www.wikidata.org/entity/Q15071250,war-correspondent,journalist,newspaper
-328,http://www.wikidata.org/entity/Q15127495,war-correspondent,journalist,newspaper
-331,http://www.wikidata.org/entity/Q152524,war-correspondent,journalist,other
-337,http://www.wikidata.org/entity/Q155106,war-correspondent,journalist,newspaper
-343,http://www.wikidata.org/entity/Q15963314,war-correspondent,journalist,newspaper
-350,http://www.wikidata.org/entity/Q15997458,war-photographer,photographer,agency
-353,http://www.wikidata.org/entity/Q16015140,war-correspondent,journalist,newspaper
-354,http://www.wikidata.org/entity/Q160375,war-correspondent,journalist,enterprise
-355,http://www.wikidata.org/entity/Q1605885,war-photographer,journalist,agency
-371,http://www.wikidata.org/entity/Q16663578,war-correspondent,journalist,newspaper
-375,http://www.wikidata.org/entity/Q1678898,war-correspondent,writer,newspaper
-381,http://www.wikidata.org/entity/Q1708879,war-correspondent,journalist,other
-386,http://www.wikidata.org/entity/Q17418894,war-correspondent,journalist,other
-389,http://www.wikidata.org/entity/Q17432488,war-correspondent,journalist,other
-390,http://www.wikidata.org/entity/Q1743447,war-correspondent,writer,other
-393,http://www.wikidata.org/entity/Q17537054,war-correspondent,writer,other
-395,http://www.wikidata.org/entity/Q17626890,war-photographer,photographer,agency
-399,http://www.wikidata.org/entity/Q18011880,war-correspondent,journalist,newspaper
-400,http://www.wikidata.org/entity/Q18021514,war-correspondent,journalist,other
-410,http://www.wikidata.org/entity/Q18491533,war-correspondent,journalist,newspaper
-413,http://www.wikidata.org/entity/Q18540206,war-correspondent,journalist,newspaper
-430,http://www.wikidata.org/entity/Q1964719,war-photographer,journalist,newspaper
-442,http://www.wikidata.org/entity/Q201589,war-correspondent,journalist,newspaper
-450,http://www.wikidata.org/entity/Q20859063,war-correspondent,journalist,newspaper
-451,http://www.wikidata.org/entity/Q20864129,war-correspondent,journalist,enterprise
-454,http://www.wikidata.org/entity/Q21029733,war-correspondent,journalist,other
-456,http://www.wikidata.org/entity/Q21074333,war-correspondent,journalist,newspaper
-460,http://www.wikidata.org/entity/Q21140987,war-correspondent,journalist,newspaper
-465,http://www.wikidata.org/entity/Q213957,war-correspondent,journalist,other
-467,http://www.wikidata.org/entity/Q21421315,war-correspondent,journalist,newspaper
-469,http://www.wikidata.org/entity/Q21531390,war-photographer,photographer,newspaper
-480,http://www.wikidata.org/entity/Q22249366,war-correspondent,journalist,newspaper
-481,http://www.wikidata.org/entity/Q22683759,war-correspondent,journalist,newspaper
-483,http://www.wikidata.org/entity/Q2272484,war-correspondent,journalist,other
-485,http://www.wikidata.org/entity/Q230068,war-correspondent,journalist,newspaper
-494,http://www.wikidata.org/entity/Q2401525,war-correspondent,journalist,newspaper
-496,http://www.wikidata.org/entity/Q2405682,war-correspondent,journalist,television
-519,http://www.wikidata.org/entity/Q26934893,war-correspondent,war-photographer,agency
-528,http://www.wikidata.org/entity/Q27924793,war-correspondent,journalist,newspaper
-532,http://www.wikidata.org/entity/Q2825193,war-correspondent,journalist,newspaper
-533,http://www.wikidata.org/entity/Q2830047,war-correspondent,journalist,newspaper
-536,http://www.wikidata.org/entity/Q2851571,war-correspondent,journalist,newspaper
-540,http://www.wikidata.org/entity/Q287994,war-correspondent,journalist,other
-542,http://www.wikidata.org/entity/Q2889554,war-photographer,camera-operator,television
-544,http://www.wikidata.org/entity/Q2905536,war-photographer,journalist,other
-562,http://www.wikidata.org/entity/Q3048455,war-correspondent,journalist,newspaper
-566,http://www.wikidata.org/entity/Q310900,war-correspondent,journalist,newspaper
-567,http://www.wikidata.org/entity/Q3116258,war-photographer,journalist,other
-573,http://www.wikidata.org/entity/Q3134441,war-correspondent,journalist,other
-578,http://www.wikidata.org/entity/Q3142466,war-correspondent,journalist,newspaper
-581,http://www.wikidata.org/entity/Q3158494,war-correspondent,journalist,television
-582,http://www.wikidata.org/entity/Q3161503,war-correspondent,journalist,newspaper
-585,http://www.wikidata.org/entity/Q3168596,war-correspondent,journalist,newspaper
-586,http://www.wikidata.org/entity/Q3170750,war-correspondent,journalist,newspaper
-596,http://www.wikidata.org/entity/Q3229253,war-photographer,photographer,agency
-597,http://www.wikidata.org/entity/Q3266155,war-correspondent,journalist,newspaper
-600,http://www.wikidata.org/entity/Q327426,war-photographer,journalist,newspaper
-601,http://www.wikidata.org/entity/Q3275723,war-correspondent,journalist,newspaper
-602,http://www.wikidata.org/entity/Q3286755,war-photographer,journalist,newspaper
-606,http://www.wikidata.org/entity/Q3296318,war-correspondent,journalist,television
-607,http://www.wikidata.org/entity/Q3299130,war-correspondent,journalist,newspaper
-608,http://www.wikidata.org/entity/Q3302258,war-correspondent,journalist,newspaper
-609,http://www.wikidata.org/entity/Q3303778,war-correspondent,journalist,other
-615,http://www.wikidata.org/entity/Q3351411,war-correspondent,journalist,newspaper
-618,http://www.wikidata.org/entity/Q3379683,war-correspondent,journalist,agency
-626,http://www.wikidata.org/entity/Q34743,war-correspondent,journalist,other
-634,http://www.wikidata.org/entity/Q352870,war-photographer,journalist,enterprise
-639,http://www.wikidata.org/entity/Q3591222,war-correspondent,journalist,newspaper
-641,http://www.wikidata.org/entity/Q361163,war-correspondent,journalist,agency
-642,http://www.wikidata.org/entity/Q362337,war-photographer,journalist,agency
-644,http://www.wikidata.org/entity/Q3675375,war-correspondent,journalist,newspaper
-647,http://www.wikidata.org/entity/Q3751279,war-correspondent,journalist,enterprise
-648,http://www.wikidata.org/entity/Q3751306,war-correspondent,journalist,enterprise
-649,http://www.wikidata.org/entity/Q377314,war-photographer,journalist,other
-661,http://www.wikidata.org/entity/Q3980231,war-photographer,photographer,enterprise
-665,http://www.wikidata.org/entity/Q4069303,war-correspondent,translator,other
-667,http://www.wikidata.org/entity/Q4104509,war-correspondent,journalist,other
-669,http://www.wikidata.org/entity/Q4121800,war-correspondent,journalist,newspaper
-670,http://www.wikidata.org/entity/Q4122755,war-correspondent,journalist,newspaper
-692,http://www.wikidata.org/entity/Q4280007,war-correspondent,journalist,enterprise
-716,http://www.wikidata.org/entity/Q44517,war-correspondent,politician,agency
-723,http://www.wikidata.org/entity/Q4503108,war-correspondent,journalist,television
-744,http://www.wikidata.org/entity/Q4718682,war-correspondent,journalist,newspaper
-750,http://www.wikidata.org/entity/Q4734330,war-correspondent,journalist,television
-751,http://www.wikidata.org/entity/Q47450994,war-correspondent,photographer,agency
-772,http://www.wikidata.org/entity/Q496027,war-photographer,journalist,agency
-776,http://www.wikidata.org/entity/Q4972273,war-correspondent,illustrator,newspaper
-780,http://www.wikidata.org/entity/Q50060717,war-correspondent,journalist,newspaper
-795,http://www.wikidata.org/entity/Q516004,war-correspondent,journalist,other
-799,http://www.wikidata.org/entity/Q5181586,war-correspondent,journalist,newspaper
-802,http://www.wikidata.org/entity/Q5214843,war-photographer,journalist,enterprise
-811,http://www.wikidata.org/entity/Q5280188,war-photographer,journalist,enterprise
-812,http://www.wikidata.org/entity/Q5289531,war-correspondent,journalist,enterprise
-815,http://www.wikidata.org/entity/Q5341389,war-correspondent,journalist,newspaper
-825,http://www.wikidata.org/entity/Q5486856,war-correspondent,radio-journalist,other
-827,http://www.wikidata.org/entity/Q5493411,war-correspondent,journalist,newspaper
-831,http://www.wikidata.org/entity/Q55120392,war-correspondent,writer,other
-835,http://www.wikidata.org/entity/Q5531414,war-correspondent,journalist,other
-863,http://www.wikidata.org/entity/Q573995,war-correspondent,journalist,enterprise
-867,http://www.wikidata.org/entity/Q57781270,war-photographer,photographer,agency
-868,http://www.wikidata.org/entity/Q5875912,war-correspondent,journalist,television
-876,http://www.wikidata.org/entity/Q59526793,war-correspondent,journalist,newspaper
-880,http://www.wikidata.org/entity/Q59780819,war-correspondent,journalist,newspaper
-889,http://www.wikidata.org/entity/Q6099790,war-correspondent,journalist,newspaper
-890,http://www.wikidata.org/entity/Q6108333,war-correspondent,journalist,enterprise
-892,http://www.wikidata.org/entity/Q6112214,war-correspondent,journalist,enterprise
-896,http://www.wikidata.org/entity/Q6136813,war-photographer,photographer,newspaper
-902,http://www.wikidata.org/entity/Q6173656,war-correspondent,journalist,newspaper
-919,http://www.wikidata.org/entity/Q64502992,war-correspondent,photographer,agency
-921,http://www.wikidata.org/entity/Q64685858,war-correspondent,novelist,newspaper
-923,http://www.wikidata.org/entity/Q6540496,war-correspondent,journalist,enterprise
-926,http://www.wikidata.org/entity/Q66041141,war-correspondent,journalist,other
-928,http://www.wikidata.org/entity/Q66487154,war-correspondent,writer,newspaper
-931,http://www.wikidata.org/entity/Q671985,war-correspondent,journalist,newspaper
-935,http://www.wikidata.org/entity/Q6767269,war-correspondent,journalist,other
-938,http://www.wikidata.org/entity/Q6791162,war-correspondent,journalist,newspaper
-942,http://www.wikidata.org/entity/Q6830516,war-correspondent,historian,other
-944,http://www.wikidata.org/entity/Q6860560,war-correspondent,journalist,other
-946,http://www.wikidata.org/entity/Q6939240,war-correspondent,journalist,other
-958,http://www.wikidata.org/entity/Q709579,war-correspondent,writer,enterprise
-963,http://www.wikidata.org/entity/Q7154771,war-correspondent,journalist,television
-968,http://www.wikidata.org/entity/Q724357,war-correspondent,journalist,other
-969,http://www.wikidata.org/entity/Q7274096,war-correspondent,journalist,enterprise
-974,http://www.wikidata.org/entity/Q731139,war-correspondent,journalist,newspaper
-986,http://www.wikidata.org/entity/Q7384540,war-photographer,journalist,other
-1001,http://www.wikidata.org/entity/Q76632,war-correspondent,journalist,newspaper
-1002,http://www.wikidata.org/entity/Q76655843,war-correspondent,engineer,other
-1003,http://www.wikidata.org/entity/Q766913,war-correspondent,journalist,television
-1004,http://www.wikidata.org/entity/Q7679021,war-correspondent,announcer,enterprise
-1005,http://www.wikidata.org/entity/Q76935,war-photographer,journalist,agency
-1008,http://www.wikidata.org/entity/Q77347,war-photographer,photographer,enterprise
-1012,http://www.wikidata.org/entity/Q7788166,war-photographer,journalist,enterprise
-1027,http://www.wikidata.org/entity/Q7969034,war-correspondent,journalist,newspaper
-1029,http://www.wikidata.org/entity/Q7987177,war-correspondent,journalist,enterprise
-1031,http://www.wikidata.org/entity/Q8007849,war-correspondent,journalist,agency
-1034,http://www.wikidata.org/entity/Q8029120,war-correspondent,journalist,newspaper
-1036,http://www.wikidata.org/entity/Q8048898,war-photographer,journalist,enterprise
-1040,http://www.wikidata.org/entity/Q8198059,war-correspondent,journalist,newspaper
-1041,http://www.wikidata.org/entity/Q8201046,war-photographer,photographer,newspaper
-1043,http://www.wikidata.org/entity/Q831101,war-correspondent,photographer,other
-1044,http://www.wikidata.org/entity/Q84121088,war-photographer,photographer,other
-1046,http://www.wikidata.org/entity/Q84593699,war-photographer,photographer,enterprise
-1047,http://www.wikidata.org/entity/Q84714703,war-correspondent,writer,newspaper
-1054,http://www.wikidata.org/entity/Q85870330,war-correspondent,journalist,enterprise
-1058,http://www.wikidata.org/entity/Q88645650,war-photographer,photographer,enterprise
-1063,http://www.wikidata.org/entity/Q89017951,war-correspondent,photographer,other
-1065,http://www.wikidata.org/entity/Q89422711,war-photographer,photographer,agency
-1071,http://www.wikidata.org/entity/Q920637,war-correspondent,journalist,newspaper
-1075,http://www.wikidata.org/entity/Q922552,war-correspondent,journalist,agency
-1077,http://www.wikidata.org/entity/Q934682,war-correspondent,journalist,newspaper
-1079,http://www.wikidata.org/entity/Q9368884,war-correspondent,journalist,newspaper
-1081,http://www.wikidata.org/entity/Q937835,war-correspondent,journalist,other
-1098,http://www.wikidata.org/entity/Q959600,war-correspondent,journalist,newspaper
-1099,http://www.wikidata.org/entity/Q960196,war-photographer,writer,other
-1103,http://www.wikidata.org/entity/Q96743044,war-correspondent,journalist,newspaper
-1111,http://www.wikidata.org/entity/Q98756136,war-correspondent,journalist,newspaper
-1114,http://www.wikidata.org/entity/Q99390539,war-correspondent,journalist,newspaper
+"pk_person_features","person_uri","occupation_main","occupation_sec2","coded_employer"
+15,http://www.wikidata.org/entity/Q104590752,war-photographer,photojournalist,press / corporate and general
+20,http://www.wikidata.org/entity/Q106117785,war-correspondent,writer,press / other
+22,http://www.wikidata.org/entity/Q1064279,war-correspondent,journalist,other
+24,http://www.wikidata.org/entity/Q106490483,war-correspondent,newspaper-editor,press
+33,http://www.wikidata.org/entity/Q1072114,war-correspondent,painter,corporate and general
+34,http://www.wikidata.org/entity/Q107647521,war-correspondent,war-photographer,corporate and general
+38,http://www.wikidata.org/entity/Q108167331,war-correspondent,photographer,press
+45,http://www.wikidata.org/entity/Q108321855,war-photographer,illustrator,other
+47,http://www.wikidata.org/entity/Q108429845,war-correspondent,journalist,press
+49,http://www.wikidata.org/entity/Q108561804,war-correspondent,journalist,press / television and radio
+54,http://www.wikidata.org/entity/Q109326653,war-correspondent,journalist,press / television and radio
+56,http://www.wikidata.org/entity/Q109773247,war-correspondent,journalist,corporate and general
+63,http://www.wikidata.org/entity/Q110647631,war-photographer,NA,other
+66,http://www.wikidata.org/entity/Q110990047,war-correspondent,painter,press
+68,http://www.wikidata.org/entity/Q111288494,war-correspondent,journalist,corporate and general
+71,http://www.wikidata.org/entity/Q1113742,war-correspondent,journalist,press
+77,http://www.wikidata.org/entity/Q111469300,war-correspondent,journalist,corporate and general
+84,http://www.wikidata.org/entity/Q111685918,war-correspondent,photographer,press / government and military
+86,http://www.wikidata.org/entity/Q111765027,war-photographer,television-journalist,corporate and general
+96,http://www.wikidata.org/entity/Q112054838,war-correspondent,academic-administrator,press / academic and education
+97,http://www.wikidata.org/entity/Q112074603,war-correspondent,actor,press
+98,http://www.wikidata.org/entity/Q112103588,war-correspondent,memoirist,press / corporate and general
+107,http://www.wikidata.org/entity/Q112326997,war-correspondent,writer,other
+122,http://www.wikidata.org/entity/Q112546143,war-correspondent,journalist,press
+135,http://www.wikidata.org/entity/Q113499941,war-correspondent,photographer,press
+140,http://www.wikidata.org/entity/Q114515974,war-photographer,NA,corporate and general
+143,http://www.wikidata.org/entity/Q115037452,war-correspondent,journalist,press
+145,http://www.wikidata.org/entity/Q115407029,war-photographer,photojournalist,corporate and general
+146,http://www.wikidata.org/entity/Q115408489,war-photographer,photojournalist,corporate and general
+147,http://www.wikidata.org/entity/Q115408555,war-photographer,NA,other
+148,http://www.wikidata.org/entity/Q115409015,war-photographer,NA,corporate and general
+154,http://www.wikidata.org/entity/Q115963230,war-correspondent,journalist,other
+156,http://www.wikidata.org/entity/Q116062773,war-correspondent,photojournalist,press / other
+161,http://www.wikidata.org/entity/Q117121102,war-correspondent,war-photographer,corporate and general
+162,http://www.wikidata.org/entity/Q11715707,war-correspondent,journalist,press / corporate and general
+164,http://www.wikidata.org/entity/Q117220565,war-photographer,cinematographer,other
+166,http://www.wikidata.org/entity/Q11749538,war-correspondent,journalist,other
+173,http://www.wikidata.org/entity/Q118876501,war-correspondent,diplomat,press / corporate and general
+174,http://www.wikidata.org/entity/Q11904754,war-correspondent,journalist,press / academic and education
+177,http://www.wikidata.org/entity/Q120085,war-correspondent,journalist,press / corporate and general
+184,http://www.wikidata.org/entity/Q12105929,war-correspondent,painter,press / corporate and general
+199,http://www.wikidata.org/entity/Q123110455,war-correspondent,journalist,corporate and general
+202,http://www.wikidata.org/entity/Q123352,war-correspondent,journalist,press
+204,http://www.wikidata.org/entity/Q123531486,war-correspondent,novelist,corporate and general
+212,http://www.wikidata.org/entity/Q12411282,war-correspondent,journalist,corporate and general
+213,http://www.wikidata.org/entity/Q124158563,war-correspondent,journalist,corporate and general
+231,http://www.wikidata.org/entity/Q125526373,war-photographer,NA,corporate and general
+233,http://www.wikidata.org/entity/Q125649890,war-correspondent,reporter,press / corporate and general
+239,http://www.wikidata.org/entity/Q1274616,war-correspondent,journalist,other
+240,http://www.wikidata.org/entity/Q12749616,war-correspondent,journalist,other
+249,http://www.wikidata.org/entity/Q12792181,war-correspondent,journalist,other
+253,http://www.wikidata.org/entity/Q128799375,war-correspondent,reporter,press
+257,http://www.wikidata.org/entity/Q130211524,war-correspondent,journalist,press / other
+260,http://www.wikidata.org/entity/Q130551164,war-photographer,photojournalist,press / government and military
+264,http://www.wikidata.org/entity/Q131324277,war-correspondent,filmmaker,other
+278,http://www.wikidata.org/entity/Q133284665,war-correspondent,journalist,other
+281,http://www.wikidata.org/entity/Q133653,war-correspondent,journalist,press / corporate and general
+288,http://www.wikidata.org/entity/Q1348644,war-photographer,photographer,press / corporate and general
+294,http://www.wikidata.org/entity/Q135493752,war-correspondent,journalist,press
+296,http://www.wikidata.org/entity/Q13560405,war-correspondent,journalist,press
+299,http://www.wikidata.org/entity/Q13562982,war-correspondent,journalist,press
+304,http://www.wikidata.org/entity/Q136213693,war-correspondent,cinematographer,corporate and general
+307,http://www.wikidata.org/entity/Q136386664,war-correspondent,journalist,press / corporate and general
+308,http://www.wikidata.org/entity/Q136631472,war-correspondent,translator,other
+311,http://www.wikidata.org/entity/Q1371063,war-photographer,photographer,other
+324,http://www.wikidata.org/entity/Q1388736,war-correspondent,writer,press
+328,http://www.wikidata.org/entity/Q139545676,war-correspondent,writer,press / television and radio
+329,http://www.wikidata.org/entity/Q139591540,war-correspondent,journalist,press
+330,http://www.wikidata.org/entity/Q139674805,war-photographer,photographer,press
+337,http://www.wikidata.org/entity/Q1483880,war-photographer,photographer,press / corporate and general
+340,http://www.wikidata.org/entity/Q15071250,war-correspondent,journalist,press / corporate and general
+342,http://www.wikidata.org/entity/Q15127495,war-correspondent,journalist,press / corporate and general
+345,http://www.wikidata.org/entity/Q152524,war-correspondent,journalist,press
+352,http://www.wikidata.org/entity/Q155106,war-correspondent,journalist,press / corporate and general
+358,http://www.wikidata.org/entity/Q15963314,war-correspondent,journalist,press
+363,http://www.wikidata.org/entity/Q15977771,war-photographer,NA,other
+365,http://www.wikidata.org/entity/Q15997458,war-photographer,photographer,other
+368,http://www.wikidata.org/entity/Q16015140,war-correspondent,journalist,press / corporate and general
+369,http://www.wikidata.org/entity/Q160375,war-correspondent,journalist,other
+370,http://www.wikidata.org/entity/Q1605885,war-photographer,photographer,corporate and general
+386,http://www.wikidata.org/entity/Q16663578,war-correspondent,journalist,press / television and radio
+390,http://www.wikidata.org/entity/Q1678898,war-correspondent,writer,press / corporate and general
+393,http://www.wikidata.org/entity/Q16943490,war-correspondent,journalist,other
+398,http://www.wikidata.org/entity/Q1708879,war-correspondent,journalist,other
+403,http://www.wikidata.org/entity/Q17418894,war-correspondent,journalist,other
+406,http://www.wikidata.org/entity/Q17432488,war-correspondent,journalist,other
+407,http://www.wikidata.org/entity/Q1743447,war-correspondent,writer,corporate and general
+410,http://www.wikidata.org/entity/Q17537054,war-correspondent,writer,press / corporate and general
+412,http://www.wikidata.org/entity/Q17626890,war-photographer,photographer,corporate and general
+416,http://www.wikidata.org/entity/Q18011880,war-correspondent,journalist,press / academic and education
+417,http://www.wikidata.org/entity/Q18021514,war-correspondent,journalist,corporate and general
+427,http://www.wikidata.org/entity/Q18491533,war-correspondent,journalist,press / corporate and general
+430,http://www.wikidata.org/entity/Q18540206,war-correspondent,journalist,press / corporate and general
+448,http://www.wikidata.org/entity/Q1964719,war-photographer,photographer,press / government and military
+460,http://www.wikidata.org/entity/Q201589,war-correspondent,journalist,press / corporate and general
+464,http://www.wikidata.org/entity/Q2071770,war-correspondent,journalist,press
+471,http://www.wikidata.org/entity/Q20859063,war-correspondent,journalist,press
+472,http://www.wikidata.org/entity/Q20864129,war-correspondent,journalist,corporate and general
+475,http://www.wikidata.org/entity/Q21029733,war-correspondent,journalist,press
+477,http://www.wikidata.org/entity/Q21074333,war-correspondent,journalist,press
+481,http://www.wikidata.org/entity/Q21140987,war-correspondent,journalist,press
+486,http://www.wikidata.org/entity/Q213957,war-correspondent,journalist,other
+488,http://www.wikidata.org/entity/Q21421315,war-correspondent,journalist,press
+490,http://www.wikidata.org/entity/Q21531390,war-photographer,photographer,press
+495,http://www.wikidata.org/entity/Q2153910,war-correspondent,historian,other
+501,http://www.wikidata.org/entity/Q22249366,war-correspondent,journalist,press / corporate and general
+502,http://www.wikidata.org/entity/Q22683759,war-correspondent,journalist,press / television and radio
+504,http://www.wikidata.org/entity/Q2272484,war-correspondent,journalist,press / corporate and general
+505,http://www.wikidata.org/entity/Q22919701,war-correspondent,journalist,other
+506,http://www.wikidata.org/entity/Q230068,war-correspondent,journalist,press / corporate and general
+516,http://www.wikidata.org/entity/Q2401525,war-correspondent,journalist,press
+518,http://www.wikidata.org/entity/Q2405682,war-correspondent,journalist,other
+543,http://www.wikidata.org/entity/Q26934893,war-correspondent,war-photographer,press / corporate and general
+552,http://www.wikidata.org/entity/Q27924793,war-correspondent,journalist,press
+556,http://www.wikidata.org/entity/Q2825193,war-correspondent,journalist,press
+557,http://www.wikidata.org/entity/Q2830047,war-correspondent,journalist,press
+560,http://www.wikidata.org/entity/Q2851571,war-correspondent,journalist,press
+564,http://www.wikidata.org/entity/Q287994,war-correspondent,journalist,other
+566,http://www.wikidata.org/entity/Q2889554,war-photographer,camera-operator,other
+568,http://www.wikidata.org/entity/Q2905536,war-photographer,photographer,press
+587,http://www.wikidata.org/entity/Q3048455,war-correspondent,journalist,press / corporate and general
+589,http://www.wikidata.org/entity/Q3060014,war-correspondent,journalist,press
+592,http://www.wikidata.org/entity/Q310900,war-correspondent,journalist,press
+593,http://www.wikidata.org/entity/Q3116258,war-photographer,writer,press / academic and education
+599,http://www.wikidata.org/entity/Q3134441,war-correspondent,journalist,other
+604,http://www.wikidata.org/entity/Q3142466,war-correspondent,journalist,press
+607,http://www.wikidata.org/entity/Q3158494,war-correspondent,journalist,other
+608,http://www.wikidata.org/entity/Q3161503,war-correspondent,journalist,press
+611,http://www.wikidata.org/entity/Q3168596,war-correspondent,journalist,press
+612,http://www.wikidata.org/entity/Q3170750,war-correspondent,journalist,press / television and radio
+623,http://www.wikidata.org/entity/Q3229253,war-photographer,photographer,corporate and general
+624,http://www.wikidata.org/entity/Q3266155,war-correspondent,journalist,press
+627,http://www.wikidata.org/entity/Q327426,war-photographer,photographer,press
+628,http://www.wikidata.org/entity/Q3275723,war-correspondent,journalist,press
+629,http://www.wikidata.org/entity/Q3286755,war-photographer,photographer,press
+633,http://www.wikidata.org/entity/Q3296318,war-correspondent,journalist,other
+634,http://www.wikidata.org/entity/Q3299130,war-correspondent,journalist,press / corporate and general
+635,http://www.wikidata.org/entity/Q3302258,war-correspondent,journalist,press
+636,http://www.wikidata.org/entity/Q3303778,war-correspondent,journalist,other
+644,http://www.wikidata.org/entity/Q3351411,war-correspondent,journalist,press
+647,http://www.wikidata.org/entity/Q3379683,war-correspondent,journalist,other
+655,http://www.wikidata.org/entity/Q3473254,war-correspondent,journalist,press
+656,http://www.wikidata.org/entity/Q34743,war-correspondent,journalist,press / corporate and general
+664,http://www.wikidata.org/entity/Q352870,war-photographer,photographer,other
+669,http://www.wikidata.org/entity/Q3591222,war-correspondent,journalist,press / television and radio
+671,http://www.wikidata.org/entity/Q361163,war-correspondent,journalist,other
+672,http://www.wikidata.org/entity/Q362337,war-photographer,photographer,corporate and general
+674,http://www.wikidata.org/entity/Q3675375,war-correspondent,journalist,press
+677,http://www.wikidata.org/entity/Q3751279,war-correspondent,journalist,other
+678,http://www.wikidata.org/entity/Q3751306,war-correspondent,journalist,other
+679,http://www.wikidata.org/entity/Q377314,war-photographer,writer,other
+691,http://www.wikidata.org/entity/Q3980231,war-photographer,photographer,corporate and general
+695,http://www.wikidata.org/entity/Q4069303,war-correspondent,translator,press / academic and education
+698,http://www.wikidata.org/entity/Q4104509,war-correspondent,journalist,other
+700,http://www.wikidata.org/entity/Q4121800,war-correspondent,journalist,press
+701,http://www.wikidata.org/entity/Q4122755,war-correspondent,journalist,press / corporate and general
+724,http://www.wikidata.org/entity/Q4280007,war-correspondent,journalist,corporate and general
+730,http://www.wikidata.org/entity/Q434185,war-correspondent,journalist,press / corporate and general
+749,http://www.wikidata.org/entity/Q44517,war-correspondent,politician,other
+756,http://www.wikidata.org/entity/Q4503108,war-correspondent,journalist,other
+761,http://www.wikidata.org/entity/Q453447,war-correspondent,journalist,press / other
+778,http://www.wikidata.org/entity/Q4718682,war-correspondent,journalist,press
+784,http://www.wikidata.org/entity/Q4734330,war-correspondent,journalist,other
+785,http://www.wikidata.org/entity/Q47450994,war-correspondent,photographer,other
+808,http://www.wikidata.org/entity/Q496027,war-photographer,photographer,corporate and general
+812,http://www.wikidata.org/entity/Q4972273,war-correspondent,illustrator,press / academic and education
+816,http://www.wikidata.org/entity/Q50060717,war-correspondent,journalist,press
+832,http://www.wikidata.org/entity/Q516004,war-correspondent,journalist,other
+836,http://www.wikidata.org/entity/Q5181586,war-correspondent,journalist,press
+839,http://www.wikidata.org/entity/Q5214843,war-photographer,photographer,corporate and general
+848,http://www.wikidata.org/entity/Q5280188,war-photographer,photographer,press / corporate and general
+849,http://www.wikidata.org/entity/Q5289531,war-correspondent,journalist,corporate and general
+852,http://www.wikidata.org/entity/Q5341389,war-correspondent,journalist,press / corporate and general
+865,http://www.wikidata.org/entity/Q5486856,war-correspondent,radio-journalist,other
+868,http://www.wikidata.org/entity/Q5493411,war-correspondent,journalist,press / corporate and general
+872,http://www.wikidata.org/entity/Q55120392,war-correspondent,writer,other
+876,http://www.wikidata.org/entity/Q5531414,war-correspondent,journalist,other
+907,http://www.wikidata.org/entity/Q573995,war-correspondent,journalist,corporate and general
+911,http://www.wikidata.org/entity/Q57781270,war-photographer,photographer,other
+912,http://www.wikidata.org/entity/Q5875912,war-correspondent,journalist,other
+920,http://www.wikidata.org/entity/Q59526793,war-correspondent,journalist,press
+924,http://www.wikidata.org/entity/Q59780819,war-correspondent,journalist,press / corporate and general
+934,http://www.wikidata.org/entity/Q6099790,war-correspondent,journalist,press
+935,http://www.wikidata.org/entity/Q6108333,war-correspondent,journalist,corporate and general
+937,http://www.wikidata.org/entity/Q6112214,war-correspondent,journalist,corporate and general
+941,http://www.wikidata.org/entity/Q6136813,war-photographer,photographer,press
+947,http://www.wikidata.org/entity/Q6173656,war-correspondent,journalist,press / corporate and general
+964,http://www.wikidata.org/entity/Q64502992,war-correspondent,photographer,other
+966,http://www.wikidata.org/entity/Q64685858,war-correspondent,novelist,press
+968,http://www.wikidata.org/entity/Q6540496,war-correspondent,journalist,corporate and general
+971,http://www.wikidata.org/entity/Q66041141,war-correspondent,journalist,other
+973,http://www.wikidata.org/entity/Q66487154,war-correspondent,writer,press / academic and education
+977,http://www.wikidata.org/entity/Q671985,war-correspondent,journalist,press / television and radio
+981,http://www.wikidata.org/entity/Q6767269,war-correspondent,journalist,other
+984,http://www.wikidata.org/entity/Q6790634,war-correspondent,journalist,corporate and general
+985,http://www.wikidata.org/entity/Q6791162,war-correspondent,journalist,press
+989,http://www.wikidata.org/entity/Q6830516,war-correspondent,historian,press / academic and education
+991,http://www.wikidata.org/entity/Q6860560,war-correspondent,journalist,press / television and radio
+993,http://www.wikidata.org/entity/Q6939240,war-correspondent,journalist,press / academic and education
+1005,http://www.wikidata.org/entity/Q709579,war-correspondent,writer,corporate and general
+1010,http://www.wikidata.org/entity/Q7154771,war-correspondent,journalist,corporate and general
+1015,http://www.wikidata.org/entity/Q724357,war-correspondent,journalist,other
+1016,http://www.wikidata.org/entity/Q7274096,war-correspondent,journalist,corporate and general
+1017,http://www.wikidata.org/entity/Q72826,war-correspondent,journalist,press
+1022,http://www.wikidata.org/entity/Q731139,war-correspondent,journalist,press / television and radio
+1034,http://www.wikidata.org/entity/Q7384540,war-photographer,photographer,other
+1049,http://www.wikidata.org/entity/Q76632,war-correspondent,journalist,press
+1050,http://www.wikidata.org/entity/Q76655843,war-correspondent,engineer,other
+1051,http://www.wikidata.org/entity/Q766913,war-correspondent,journalist,other
+1052,http://www.wikidata.org/entity/Q7679021,war-correspondent,announcer,corporate and general
+1053,http://www.wikidata.org/entity/Q76935,war-photographer,writer,corporate and general
+1056,http://www.wikidata.org/entity/Q77347,war-photographer,photographer,corporate and general
+1059,http://www.wikidata.org/entity/Q77713414,war-photographer,NA,press / government and military
+1060,http://www.wikidata.org/entity/Q7788166,war-photographer,photographer,other
+1076,http://www.wikidata.org/entity/Q7969034,war-correspondent,journalist,press
+1078,http://www.wikidata.org/entity/Q7987177,war-correspondent,journalist,corporate and general
+1080,http://www.wikidata.org/entity/Q8007849,war-correspondent,journalist,other
+1083,http://www.wikidata.org/entity/Q8029120,war-correspondent,journalist,press / corporate and general
+1085,http://www.wikidata.org/entity/Q8048898,war-photographer,photographer,corporate and general
+1089,http://www.wikidata.org/entity/Q8198059,war-correspondent,journalist,press / other
+1090,http://www.wikidata.org/entity/Q8201046,war-photographer,photographer,press
+1092,http://www.wikidata.org/entity/Q831101,war-correspondent,photographer,other
+1093,http://www.wikidata.org/entity/Q84121088,war-photographer,photographer,corporate and general
+1095,http://www.wikidata.org/entity/Q84593699,war-photographer,photographer,corporate and general
+1096,http://www.wikidata.org/entity/Q84714703,war-correspondent,writer,press
+1097,http://www.wikidata.org/entity/Q84720985,war-correspondent,NA,other
+1103,http://www.wikidata.org/entity/Q85870330,war-correspondent,journalist,corporate and general
+1108,http://www.wikidata.org/entity/Q88645650,war-photographer,photographer,corporate and general
+1113,http://www.wikidata.org/entity/Q89017951,war-correspondent,photographer,press
+1116,http://www.wikidata.org/entity/Q89422711,war-photographer,photographer,press / other
+1122,http://www.wikidata.org/entity/Q920637,war-correspondent,journalist,press / corporate and general
+1126,http://www.wikidata.org/entity/Q922552,war-correspondent,journalist,press / television and radio
+1128,http://www.wikidata.org/entity/Q934682,war-correspondent,journalist,press
+1130,http://www.wikidata.org/entity/Q9368884,war-correspondent,journalist,press / corporate and general
+1132,http://www.wikidata.org/entity/Q937835,war-correspondent,journalist,press
+1149,http://www.wikidata.org/entity/Q959600,war-correspondent,journalist,press / academic and education
+1150,http://www.wikidata.org/entity/Q960196,war-photographer,photographer,other
+1154,http://www.wikidata.org/entity/Q96743044,war-correspondent,journalist,press / corporate and general
+1157,http://www.wikidata.org/entity/Q96978,war-correspondent,journalist,corporate and general
+1165,http://www.wikidata.org/entity/Q98756136,war-correspondent,journalist,press
+1168,http://www.wikidata.org/entity/Q99390539,war-correspondent,journalist,press / corporate and general
