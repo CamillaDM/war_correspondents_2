@@ -1,0 +1,47 @@
+
+td,
+th {
+vertical-align: top;
+font-size: 10pt;
+padding-left: 5pt;
+}
+
+th {
+font-weight:strong;    
+}
+
+body {
+    background-color: aliceblue;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+empty-cells: show;
+}
+
+td,
+th {
+vertical-align: top;
+font-size: 10pt;
+padding-left: 5pt;
+}
+    
+.background_highlight {
+    background-color: rgba(207, 235, 235, 0.675);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(25, 25, 105);
+}
+
+
+ul {
+    list-style-type: circle;
+}
+
